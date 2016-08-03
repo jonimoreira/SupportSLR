@@ -1,0 +1,13 @@
+http://www.sciencedirect.com/science?_ob=ArticleListURL&_method=list&_ArticleListID=-1012272426&_sort=r&_st=13&view=c&md5=a5eacd686d48c6d448b5c9795b3b38c2&searchtype=a
+
+http://www.sciencedirect.com/science?_ob=ArticleListURL&_method=tag&searchtype=a&refSource=search&pdfDownloadSort=r&PDF_DDM_MAX=25&_st=13&count=783&sort=r&filterType=&_chunk=0&hitCount=783&NEXT_LIST=1&view=c&md5=2fa1f70f504d63de95789c216965bb14&_ArticleListID=-1012272426&chunkSize=25&sisr_search=&TOTAL_PAGES=32&pdfDownload=&zone=exportDropDown&citation-type=RIS&format=cite-abs&bottomPaginationBoxChanged=&bottomNext=Next+%3E%3E&displayPerPageFlag=f&resultsPerPage=25
+
+http://www.sciencedirect.com/science?_ob=ArticleListURL&_method=tag&searchtype=a&refSource=search&pdfDownloadSort=r&PDF_DDM_MAX=25&_st=13&count=783&sort=r&filterType=&_chunk=1&hitCount=783&PREV_LIST=0&NEXT_LIST=2&view=c&md5=ccbc83a93fed28c08980f8bd63c30858&_ArticleListID=-1012272426&chunkSize=25&sisr_search=&TOTAL_PAGES=32&pdfDownload=&zone=exportDropDown&citation-type=RIS&format=cite-abs&bottomPaginationBoxChanged=&bottomNext=Next+%3E%3E&displayPerPageFlag=f&resultsPerPage=25
+
+http://www.sciencedirect.com/science?_ob=ArticleListURL&_method=tag&searchtype=a&refSource=search&pdfDownloadSort=r&PDF_DDM_MAX=25&_st=13&count=783&sort=r&filterType=&_chunk=2&hitCount=783&PREV_LIST=1&NEXT_LIST=3&view=c&md5=5d49e79e14be5ffac1f14bd53bd21912&_ArticleListID=-1012272426&chunkSize=25&sisr_search=&TOTAL_PAGES=32&pdfDownload=&zone=exportDropDown&citation-type=RIS&format=cite-abs&bottomPaginationBoxChanged=&bottomNext=Next+%3E%3E&displayPerPageFlag=f&resultsPerPage=25
+
+http://www.sciencedirect.com/science?_ob=ArticleListURL&_method=tag&searchtype=a&refSource=search&pdfDownloadSort=r&PDF_DDM_MAX=25&_st=13&count=783&sort=r&filterType=&_chunk=3&hitCount=783&PREV_LIST=2&NEXT_LIST=4&view=c&md5=7d06447d41be4f236b890b78e24a4ab8&_ArticleListID=-1012272426&chunkSize=25&sisr_search=&TOTAL_PAGES=32&pdfDownload=&zone=exportDropDown&citation-type=RIS&format=cite-abs&bottomPaginationBoxChanged=&bottomNext=Next+%3E%3E&displayPerPageFlag=f&resultsPerPage=25
+
+
+http://www.sciencedirect.com/science?_ob=ArticleListURL&_method=tag&searchtype=a&refSource=search&pdfDownloadSort=r&PDF_DDM_MAX=25&_st=13&count=783&sort=r&filterType=&_chunk=15&hitCount=783&PREV_LIST=14&NEXT_LIST=16&view=c&md5=7d06447d41be4f236b890b78e24a4ab8&_ArticleListID=-1012272426&chunkSize=25&sisr_search=&TOTAL_PAGES=32&pdfDownload=&zone=exportDropDown&citation-type=RIS&format=cite-abs&bottomPaginationBoxChanged=&bottomNext=Next+%3E%3E&displayPerPageFlag=f&resultsPerPage=25
+

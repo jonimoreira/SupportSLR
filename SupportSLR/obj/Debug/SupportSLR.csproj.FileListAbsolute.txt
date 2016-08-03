@@ -1,0 +1,15 @@
+C:\Users\joao.moreira\Documents\SLR\App\SupportSLR\SupportSLR\bin\Debug\SupportSLR.exe.config
+C:\Users\joao.moreira\Documents\SLR\App\SupportSLR\SupportSLR\bin\Debug\SupportSLR.exe
+C:\Users\joao.moreira\Documents\SLR\App\SupportSLR\SupportSLR\bin\Debug\SupportSLR.pdb
+C:\Users\joao.moreira\Documents\SLR\App\SupportSLR\SupportSLR\obj\Debug\SupportSLR.csprojResolveAssemblyReference.cache
+C:\Users\joao.moreira\Documents\SLR\App\SupportSLR\SupportSLR\obj\Debug\SupportSLR.Form1.resources
+C:\Users\joao.moreira\Documents\SLR\App\SupportSLR\SupportSLR\obj\Debug\SupportSLR.Properties.Resources.resources
+C:\Users\joao.moreira\Documents\SLR\App\SupportSLR\SupportSLR\obj\Debug\SupportSLR.csproj.GenerateResource.Cache
+C:\Users\joao.moreira\Documents\SLR\App\SupportSLR\SupportSLR\obj\Debug\SupportSLR.exe
+C:\Users\joao.moreira\Documents\SLR\App\SupportSLR\SupportSLR\obj\Debug\SupportSLR.pdb
+C:\Users\joao.moreira\Documents\SLR\App\SupportSLR\SupportSLR\obj\Debug\SupportSLR.frmDataSource.resources
+C:\Users\joao.moreira\Documents\SLR\App\SupportSLR\SupportSLR\obj\Debug\SupportSLR.frmQueryDataSourceRound.resources
+C:\Users\joao.moreira\Documents\SLR\App\SupportSLR\SupportSLR\obj\Debug\SupportSLR.frmRound.resources
+C:\Users\joao.moreira\Documents\SLR\App\SupportSLR\SupportSLR\obj\Debug\SupportSLR.frmSearchResultItem.resources
+C:\Users\joao.moreira\Documents\SLR\App\SupportSLR\SupportSLR\obj\Debug\SupportSLR.frmScienceDirect.resources
+C:\Users\joao.moreira\Documents\SLR\App\SupportSLR\SupportSLR\obj\Debug\SupportSLR.frmGoogleScholar.resources
