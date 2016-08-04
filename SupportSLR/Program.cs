@@ -20,7 +20,9 @@ namespace SupportSLR
             //Application.Run(new frmDataSource());
             //Application.Run(new frmQueryDataSourceRound());
             //Application.Run(new frmScienceDirect());
-            Application.Run(new frmGoogleScholar());
+            //Application.Run(new frmGoogleScholar());
+            //Application.Run(new frmScopus());
+            Application.Run(new frmWiley());
 
         }
     }
