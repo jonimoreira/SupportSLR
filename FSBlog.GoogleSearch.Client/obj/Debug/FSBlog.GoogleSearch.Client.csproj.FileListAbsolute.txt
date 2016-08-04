@@ -1,0 +1,5 @@
+D:\Projects\FSBlog.GoogleSearch-master\FSBlog.GoogleSearch.Client\bin\Debug\FSBlog.GoogleSearch.GoogleClient.dll
+D:\Projects\FSBlog.GoogleSearch-master\FSBlog.GoogleSearch.Client\bin\Debug\FSBlog.GoogleSearch.GoogleClient.pdb
+D:\Projects\FSBlog.GoogleSearch-master\FSBlog.GoogleSearch.Client\obj\Debug\FSBlog.GoogleSearch.Client.csprojResolveAssemblyReference.cache
+D:\Projects\FSBlog.GoogleSearch-master\FSBlog.GoogleSearch.Client\obj\Debug\FSBlog.GoogleSearch.GoogleClient.dll
+D:\Projects\FSBlog.GoogleSearch-master\FSBlog.GoogleSearch.Client\obj\Debug\FSBlog.GoogleSearch.GoogleClient.pdb
