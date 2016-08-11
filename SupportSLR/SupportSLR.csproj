@@ -60,11 +60,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="frmSpringer.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="frmSpringer.Designer.cs">
+      <DependentUpon>frmSpringer.cs</DependentUpon>
     </Compile>
     <Compile Include="frmDataSource.cs">
       <SubType>Form</SubType>
@@ -136,8 +136,8 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>SupportSLRDataSet3.xsd</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="frmSpringer.resx">
+      <DependentUpon>frmSpringer.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmDataSource.resx">
       <DependentUpon>frmDataSource.cs</DependentUpon>

@@ -127,6 +127,6 @@
     <value>173, 95</value>
   </metadata>
   <data name="textBox2.Text" xml:space="preserve">
-    <value>scholar?start={0}&amp;q=%22interoperability%22+and +(%22emergency+management%22+or+%22disaster+risk+reduction%22+or+ %22situational+awareness%22+or+%22disaster+management%22+or+%22crisis +management%22)&amp;hl=pt-BR&amp;as_sdt=0,5</value>
+    <value>scholar?start={0}&amp;q=%28%22early+warning+systems%22%29+and+%28%22interoperability%22%29+and+%28%22emergency+management%22+or+%22disaster+risk+reduction%22+or+%22situation+awareness%22+or+%22disaster+management%22+or+%22crisis+management%22%29&amp;btnG=&amp;hl=pt-BR&amp;as_sdt=0%2C5</value>
   </data>
 </root>

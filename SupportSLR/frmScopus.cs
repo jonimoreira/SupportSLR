@@ -52,7 +52,7 @@ namespace SupportSLR
 
                 SupportSLRDataSetTableAdapters.SearchResultItemTableAdapter searchResultItemTableAdapter = new SupportSLRDataSetTableAdapters.SearchResultItemTableAdapter();
                 SupportSLRDataSet.SearchResultItemRow newSearchResultItemRow = supportSLRDataSet.SearchResultItem.NewSearchResultItemRow();
-                newSearchResultItemRow.fk_QueryDataSourceRound_id = 5; //(int)comboBox1.SelectedValue;
+                newSearchResultItemRow.fk_QueryDataSourceRound_id = 11; //(int)comboBox1.SelectedValue;
 
                 string line_break = "\n";
 

@@ -43,6 +43,7 @@ namespace SupportSLR
             {
                 string resultsFromSearch = string.Empty;
                 string url = String.Format(basicURL + querystring, (page - 1)*20 + 1);
+                url = url.Replace("&amp;", "&");
 
                 try
                 {
@@ -74,7 +75,7 @@ namespace SupportSLR
 
                         SupportSLRDataSetTableAdapters.SearchResultItemTableAdapter searchResultItemTableAdapter = new SupportSLRDataSetTableAdapters.SearchResultItemTableAdapter();
                         SupportSLRDataSet.SearchResultItemRow newSearchResultItemRow = supportSLRDataSet.SearchResultItem.NewSearchResultItemRow();
-                        newSearchResultItemRow.fk_QueryDataSourceRound_id = 6; //(int)comboBox1.SelectedValue;
+                        newSearchResultItemRow.fk_QueryDataSourceRound_id = 12; //(int)comboBox1.SelectedValue;
                         newSearchResultItemRow.url = urlResult;
                         newSearchResultItemRow.page_content = contentResult;
                         newSearchResultItemRow.errors_onload = string.Empty;

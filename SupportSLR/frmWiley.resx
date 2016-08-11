@@ -120,12 +120,6 @@
   <metadata name="queryDataSourceRoundBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>687, 56</value>
   </metadata>
-  <metadata name="queryDataSourceRoundBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>687, 56</value>
-  </metadata>
-  <metadata name="supportSLRDataSet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>947, 56</value>
-  </metadata>
   <metadata name="supportSLRDataSet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>947, 56</value>
   </metadata>
@@ -133,6 +127,6 @@
     <value>1103, 56</value>
   </metadata>
   <data name="textBox2.Text" xml:space="preserve">
-    <value>advanced/search/results/reentry?scope=allContent&amp;query=%22interoperability%22+and+%28%22emergency+management%22+or+%22disaster+risk+reduction%22+or+%22situation+awareness%22+or+%22disaster+management%22+or+%22crisis+management%22%29&amp;inTheLastList=6&amp;queryStringEntered=false&amp;searchRowCriteria[0].fieldName=all-fields&amp;searchRowCriteria[0].booleanConnector=and&amp;searchRowCriteria[1].fieldName=all-fields&amp;searchRowCriteria[1].booleanConnector=and&amp;searchRowCriteria[2].fieldName=all-fields&amp;searchRowCriteria[2].booleanConnector=and&amp;start={0}&amp;ordering=relevancy</value>
+    <value>advanced/search/results/reentry?scope=allContent&amp;amp;query=%28%22early+warning+systems%22%29+and+%28%22interoperability%22%29+and+%28%22emergency+management%22+or+%22disaster+risk+reduction%22+or+%22situation+awareness%22+or+%22disaster+management%22+or+%22crisis+management%22%29&amp;amp;inTheLastList=6&amp;amp;queryStringEntered=false&amp;amp;searchRowCriteria[0].fieldName=all-fields&amp;amp;searchRowCriteria[0].booleanConnector=and&amp;amp;searchRowCriteria[1].fieldName=all-fields&amp;amp;searchRowCriteria[1].booleanConnector=and&amp;amp;searchRowCriteria[2].fieldName=all-fields&amp;amp;searchRowCriteria[2].booleanConnector=and&amp;start={0}&amp;ordering=relevancy</value>
   </data>
 </root>

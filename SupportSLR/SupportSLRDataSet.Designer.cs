@@ -1662,6 +1662,14 @@ namespace SupportSLR {
             
             private global::System.Data.DataColumn columnerrors_onload;
             
+            private global::System.Data.DataColumn columnyear;
+            
+            private global::System.Data.DataColumn columnnum_pages;
+            
+            private global::System.Data.DataColumn columnweight_calculated;
+            
+            private global::System.Data.DataColumn columnposition_results;
+            
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public SearchResultItemDataTable() {
@@ -1793,6 +1801,38 @@ namespace SupportSLR {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn yearColumn {
+                get {
+                    return this.columnyear;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn num_pagesColumn {
+                get {
+                    return this.columnnum_pages;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn weight_calculatedColumn {
+                get {
+                    return this.columnweight_calculated;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn position_resultsColumn {
+                get {
+                    return this.columnposition_results;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             [global::System.ComponentModel.Browsable(false)]
             public int Count {
                 get {
@@ -1828,7 +1868,7 @@ namespace SupportSLR {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public SearchResultItemRow AddSearchResultItemRow(QueryDataSourceRoundRow parentQueryDataSourceRoundRowByFK_SearchResultItem_QueryDataSourceRound, string url, string page_content, string endnote_url, string title, string _abstract, string date_publication, string pages, string type, string endnote_content, string errors_onload) {
+            public SearchResultItemRow AddSearchResultItemRow(QueryDataSourceRoundRow parentQueryDataSourceRoundRowByFK_SearchResultItem_QueryDataSourceRound, string url, string page_content, string endnote_url, string title, string _abstract, string date_publication, string pages, string type, string endnote_content, string errors_onload, int year, int num_pages, int weight_calculated, int position_results) {
                 SearchResultItemRow rowSearchResultItemRow = ((SearchResultItemRow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
                         null,
@@ -1842,7 +1882,11 @@ namespace SupportSLR {
                         pages,
                         type,
                         endnote_content,
-                        errors_onload};
+                        errors_onload,
+                        year,
+                        num_pages,
+                        weight_calculated,
+                        position_results};
                 if ((parentQueryDataSourceRoundRowByFK_SearchResultItem_QueryDataSourceRound != null)) {
                     columnValuesArray[1] = parentQueryDataSourceRoundRowByFK_SearchResultItem_QueryDataSourceRound[0];
                 }
@@ -1887,6 +1931,10 @@ namespace SupportSLR {
                 this.columntype = base.Columns["type"];
                 this.columnendnote_content = base.Columns["endnote_content"];
                 this.columnerrors_onload = base.Columns["errors_onload"];
+                this.columnyear = base.Columns["year"];
+                this.columnnum_pages = base.Columns["num_pages"];
+                this.columnweight_calculated = base.Columns["weight_calculated"];
+                this.columnposition_results = base.Columns["position_results"];
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -1919,6 +1967,14 @@ namespace SupportSLR {
                 base.Columns.Add(this.columnendnote_content);
                 this.columnerrors_onload = new global::System.Data.DataColumn("errors_onload", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnerrors_onload);
+                this.columnyear = new global::System.Data.DataColumn("year", typeof(int), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnyear);
+                this.columnnum_pages = new global::System.Data.DataColumn("num_pages", typeof(int), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnnum_pages);
+                this.columnweight_calculated = new global::System.Data.DataColumn("weight_calculated", typeof(int), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnweight_calculated);
+                this.columnposition_results = new global::System.Data.DataColumn("position_results", typeof(int), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnposition_results);
                 this.Constraints.Add(new global::System.Data.UniqueConstraint("Constraint1", new global::System.Data.DataColumn[] {
                                 this.columnid}, true));
                 this.columnid.AutoIncrement = true;
@@ -2650,6 +2706,70 @@ namespace SupportSLR {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public int year {
+                get {
+                    try {
+                        return ((int)(this[this.tableSearchResultItem.yearColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'year\' in table \'SearchResultItem\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableSearchResultItem.yearColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public int num_pages {
+                get {
+                    try {
+                        return ((int)(this[this.tableSearchResultItem.num_pagesColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'num_pages\' in table \'SearchResultItem\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableSearchResultItem.num_pagesColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public int weight_calculated {
+                get {
+                    try {
+                        return ((int)(this[this.tableSearchResultItem.weight_calculatedColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'weight_calculated\' in table \'SearchResultItem\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableSearchResultItem.weight_calculatedColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public int position_results {
+                get {
+                    try {
+                        return ((int)(this[this.tableSearchResultItem.position_resultsColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'position_results\' in table \'SearchResultItem\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableSearchResultItem.position_resultsColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public QueryDataSourceRoundRow QueryDataSourceRoundRow {
                 get {
                     return ((QueryDataSourceRoundRow)(this.GetParentRow(this.Table.ParentRelations["FK_SearchResultItem_QueryDataSourceRound"])));
@@ -2777,6 +2897,54 @@ namespace SupportSLR {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public void Seterrors_onloadNull() {
                 this[this.tableSearchResultItem.errors_onloadColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IsyearNull() {
+                return this.IsNull(this.tableSearchResultItem.yearColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetyearNull() {
+                this[this.tableSearchResultItem.yearColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool Isnum_pagesNull() {
+                return this.IsNull(this.tableSearchResultItem.num_pagesColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void Setnum_pagesNull() {
+                this[this.tableSearchResultItem.num_pagesColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool Isweight_calculatedNull() {
+                return this.IsNull(this.tableSearchResultItem.weight_calculatedColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void Setweight_calculatedNull() {
+                this[this.tableSearchResultItem.weight_calculatedColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool Isposition_resultsNull() {
+                return this.IsNull(this.tableSearchResultItem.position_resultsColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void Setposition_resultsNull() {
+                this[this.tableSearchResultItem.position_resultsColumn] = global::System.Convert.DBNull;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -4495,10 +4663,14 @@ SELECT id, query, fk_DataSource_id, fk_Round_id FROM QueryDataSourceRound WHERE 
             tableMapping.ColumnMappings.Add("type", "type");
             tableMapping.ColumnMappings.Add("endnote_content", "endnote_content");
             tableMapping.ColumnMappings.Add("errors_onload", "errors_onload");
+            tableMapping.ColumnMappings.Add("year", "year");
+            tableMapping.ColumnMappings.Add("num_pages", "num_pages");
+            tableMapping.ColumnMappings.Add("weight_calculated", "weight_calculated");
+            tableMapping.ColumnMappings.Add("position_results", "position_results");
             this._adapter.TableMappings.Add(tableMapping);
             this._adapter.DeleteCommand = new global::System.Data.SqlClient.SqlCommand();
             this._adapter.DeleteCommand.Connection = this.Connection;
-            this._adapter.DeleteCommand.CommandText = @"DELETE FROM [SearchResultItem] WHERE (([id] = @Original_id) AND ([fk_QueryDataSourceRound_id] = @Original_fk_QueryDataSourceRound_id) AND ((@IsNull_title = 1 AND [title] IS NULL) OR ([title] = @Original_title)) AND ((@IsNull_date_publication = 1 AND [date_publication] IS NULL) OR ([date_publication] = @Original_date_publication)) AND ((@IsNull_pages = 1 AND [pages] IS NULL) OR ([pages] = @Original_pages)) AND ((@IsNull_type = 1 AND [type] IS NULL) OR ([type] = @Original_type)))";
+            this._adapter.DeleteCommand.CommandText = @"DELETE FROM [SearchResultItem] WHERE (([id] = @Original_id) AND ([fk_QueryDataSourceRound_id] = @Original_fk_QueryDataSourceRound_id) AND ((@IsNull_title = 1 AND [title] IS NULL) OR ([title] = @Original_title)) AND ((@IsNull_date_publication = 1 AND [date_publication] IS NULL) OR ([date_publication] = @Original_date_publication)) AND ((@IsNull_pages = 1 AND [pages] IS NULL) OR ([pages] = @Original_pages)) AND ((@IsNull_type = 1 AND [type] IS NULL) OR ([type] = @Original_type)) AND ((@IsNull_num_pages = 1 AND [num_pages] IS NULL) OR ([num_pages] = @Original_num_pages)) AND ((@IsNull_position_results = 1 AND [position_results] IS NULL) OR ([position_results] = @Original_position_results)) AND ((@IsNull_weight_calculated = 1 AND [weight_calculated] IS NULL) OR ([weight_calculated] = @Original_weight_calculated)) AND ((@IsNull_year = 1 AND [year] IS NULL) OR ([year] = @Original_year)))";
             this._adapter.DeleteCommand.CommandType = global::System.Data.CommandType.Text;
             this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_id", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "id", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
             this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_fk_QueryDataSourceRound_id", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "fk_QueryDataSourceRound_id", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
@@ -4510,10 +4682,18 @@ SELECT id, query, fk_DataSource_id, fk_Round_id FROM QueryDataSourceRound WHERE 
             this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_pages", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "pages", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
             this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@IsNull_type", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "type", global::System.Data.DataRowVersion.Original, true, null, "", "", ""));
             this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_type", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "type", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
+            this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@IsNull_num_pages", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "num_pages", global::System.Data.DataRowVersion.Original, true, null, "", "", ""));
+            this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_num_pages", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "num_pages", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
+            this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@IsNull_position_results", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "position_results", global::System.Data.DataRowVersion.Original, true, null, "", "", ""));
+            this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_position_results", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "position_results", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
+            this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@IsNull_weight_calculated", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "weight_calculated", global::System.Data.DataRowVersion.Original, true, null, "", "", ""));
+            this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_weight_calculated", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "weight_calculated", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
+            this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@IsNull_year", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "year", global::System.Data.DataRowVersion.Original, true, null, "", "", ""));
+            this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_year", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "year", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
             this._adapter.InsertCommand = new global::System.Data.SqlClient.SqlCommand();
             this._adapter.InsertCommand.Connection = this.Connection;
-            this._adapter.InsertCommand.CommandText = @"INSERT INTO [SearchResultItem] ([fk_QueryDataSourceRound_id], [url], [page_content], [endnote_url], [title], [abstract], [date_publication], [pages], [type], [endnote_content], [errors_onload]) VALUES (@fk_QueryDataSourceRound_id, @url, @page_content, @endnote_url, @title, @abstract, @date_publication, @pages, @type, @endnote_content, @errors_onload);
-SELECT id, fk_QueryDataSourceRound_id, url, page_content, endnote_url, title, abstract, date_publication, pages, type, endnote_content, errors_onload FROM SearchResultItem WHERE (id = SCOPE_IDENTITY())";
+            this._adapter.InsertCommand.CommandText = @"INSERT INTO [SearchResultItem] ([fk_QueryDataSourceRound_id], [url], [page_content], [endnote_url], [title], [abstract], [date_publication], [pages], [type], [endnote_content], [errors_onload], [num_pages], [position_results], [weight_calculated], [year]) VALUES (@fk_QueryDataSourceRound_id, @url, @page_content, @endnote_url, @title, @abstract, @date_publication, @pages, @type, @endnote_content, @errors_onload, @num_pages, @position_results, @weight_calculated, @year);
+SELECT id, fk_QueryDataSourceRound_id, url, page_content, endnote_url, title, abstract, date_publication, pages, type, endnote_content, errors_onload, num_pages, position_results, weight_calculated, year FROM SearchResultItem WHERE (id = SCOPE_IDENTITY())";
             this._adapter.InsertCommand.CommandType = global::System.Data.CommandType.Text;
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@fk_QueryDataSourceRound_id", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "fk_QueryDataSourceRound_id", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@url", global::System.Data.SqlDbType.NText, 0, global::System.Data.ParameterDirection.Input, 0, 0, "url", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
@@ -4526,10 +4706,32 @@ SELECT id, fk_QueryDataSourceRound_id, url, page_content, endnote_url, title, ab
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@type", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "type", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@endnote_content", global::System.Data.SqlDbType.NText, 0, global::System.Data.ParameterDirection.Input, 0, 0, "endnote_content", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@errors_onload", global::System.Data.SqlDbType.NText, 0, global::System.Data.ParameterDirection.Input, 0, 0, "errors_onload", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@num_pages", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "num_pages", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@position_results", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "position_results", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@weight_calculated", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "weight_calculated", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@year", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "year", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.UpdateCommand = new global::System.Data.SqlClient.SqlCommand();
             this._adapter.UpdateCommand.Connection = this.Connection;
-            this._adapter.UpdateCommand.CommandText = @"UPDATE [SearchResultItem] SET [fk_QueryDataSourceRound_id] = @fk_QueryDataSourceRound_id, [url] = @url, [page_content] = @page_content, [endnote_url] = @endnote_url, [title] = @title, [abstract] = @abstract, [date_publication] = @date_publication, [pages] = @pages, [type] = @type, [endnote_content] = @endnote_content, [errors_onload] = @errors_onload WHERE (([id] = @Original_id) AND ([fk_QueryDataSourceRound_id] = @Original_fk_QueryDataSourceRound_id) AND ((@IsNull_title = 1 AND [title] IS NULL) OR ([title] = @Original_title)) AND ((@IsNull_date_publication = 1 AND [date_publication] IS NULL) OR ([date_publication] = @Original_date_publication)) AND ((@IsNull_pages = 1 AND [pages] IS NULL) OR ([pages] = @Original_pages)) AND ((@IsNull_type = 1 AND [type] IS NULL) OR ([type] = @Original_type)));
-SELECT id, fk_QueryDataSourceRound_id, url, page_content, endnote_url, title, abstract, date_publication, pages, type, endnote_content, errors_onload FROM SearchResultItem WHERE (id = @id)";
+            this._adapter.UpdateCommand.CommandText = "UPDATE [SearchResultItem] SET [fk_QueryDataSourceRound_id] = @fk_QueryDataSourceR" +
+                "ound_id, [url] = @url, [page_content] = @page_content, [endnote_url] = @endnote_" +
+                "url, [title] = @title, [abstract] = @abstract, [date_publication] = @date_public" +
+                "ation, [pages] = @pages, [type] = @type, [endnote_content] = @endnote_content, [" +
+                "errors_onload] = @errors_onload, [num_pages] = @num_pages, [position_results] = " +
+                "@position_results, [weight_calculated] = @weight_calculated, [year] = @year WHER" +
+                "E (([id] = @Original_id) AND ([fk_QueryDataSourceRound_id] = @Original_fk_QueryD" +
+                "ataSourceRound_id) AND ((@IsNull_title = 1 AND [title] IS NULL) OR ([title] = @O" +
+                "riginal_title)) AND ((@IsNull_date_publication = 1 AND [date_publication] IS NUL" +
+                "L) OR ([date_publication] = @Original_date_publication)) AND ((@IsNull_pages = 1" +
+                " AND [pages] IS NULL) OR ([pages] = @Original_pages)) AND ((@IsNull_type = 1 AND" +
+                " [type] IS NULL) OR ([type] = @Original_type)) AND ((@IsNull_num_pages = 1 AND [" +
+                "num_pages] IS NULL) OR ([num_pages] = @Original_num_pages)) AND ((@IsNull_positi" +
+                "on_results = 1 AND [position_results] IS NULL) OR ([position_results] = @Origina" +
+                "l_position_results)) AND ((@IsNull_weight_calculated = 1 AND [weight_calculated]" +
+                " IS NULL) OR ([weight_calculated] = @Original_weight_calculated)) AND ((@IsNull_" +
+                "year = 1 AND [year] IS NULL) OR ([year] = @Original_year)));\r\nSELECT id, fk_Quer" +
+                "yDataSourceRound_id, url, page_content, endnote_url, title, abstract, date_publi" +
+                "cation, pages, type, endnote_content, errors_onload, num_pages, position_results" +
+                ", weight_calculated, year FROM SearchResultItem WHERE (id = @id)";
             this._adapter.UpdateCommand.CommandType = global::System.Data.CommandType.Text;
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@fk_QueryDataSourceRound_id", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "fk_QueryDataSourceRound_id", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@url", global::System.Data.SqlDbType.NText, 0, global::System.Data.ParameterDirection.Input, 0, 0, "url", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
@@ -4542,6 +4744,10 @@ SELECT id, fk_QueryDataSourceRound_id, url, page_content, endnote_url, title, ab
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@type", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "type", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@endnote_content", global::System.Data.SqlDbType.NText, 0, global::System.Data.ParameterDirection.Input, 0, 0, "endnote_content", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@errors_onload", global::System.Data.SqlDbType.NText, 0, global::System.Data.ParameterDirection.Input, 0, 0, "errors_onload", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@num_pages", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "num_pages", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@position_results", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "position_results", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@weight_calculated", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "weight_calculated", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@year", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "year", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_id", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "id", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_fk_QueryDataSourceRound_id", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "fk_QueryDataSourceRound_id", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@IsNull_title", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "title", global::System.Data.DataRowVersion.Original, true, null, "", "", ""));
@@ -4552,6 +4758,14 @@ SELECT id, fk_QueryDataSourceRound_id, url, page_content, endnote_url, title, ab
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_pages", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "pages", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@IsNull_type", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "type", global::System.Data.DataRowVersion.Original, true, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_type", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "type", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@IsNull_num_pages", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "num_pages", global::System.Data.DataRowVersion.Original, true, null, "", "", ""));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_num_pages", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "num_pages", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@IsNull_position_results", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "position_results", global::System.Data.DataRowVersion.Original, true, null, "", "", ""));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_position_results", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "position_results", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@IsNull_weight_calculated", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "weight_calculated", global::System.Data.DataRowVersion.Original, true, null, "", "", ""));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_weight_calculated", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "weight_calculated", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@IsNull_year", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "year", global::System.Data.DataRowVersion.Original, true, null, "", "", ""));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_year", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "year", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@id", global::System.Data.SqlDbType.Int, 4, global::System.Data.ParameterDirection.Input, 0, 0, "id", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
         }
         
@@ -4568,9 +4782,9 @@ SELECT id, fk_QueryDataSourceRound_id, url, page_content, endnote_url, title, ab
             this._commandCollection = new global::System.Data.SqlClient.SqlCommand[1];
             this._commandCollection[0] = new global::System.Data.SqlClient.SqlCommand();
             this._commandCollection[0].Connection = this.Connection;
-            this._commandCollection[0].CommandText = "SELECT        id, fk_QueryDataSourceRound_id, url, page_content, endnote_url, tit" +
-                "le, abstract, date_publication, pages, type, endnote_content, errors_onload\r\nFRO" +
-                "M            SearchResultItem";
+            this._commandCollection[0].CommandText = "SELECT id, fk_QueryDataSourceRound_id, url, page_content, endnote_url, title, abs" +
+                "tract, date_publication, pages, type, endnote_content, errors_onload, num_pages," +
+                " position_results, weight_calculated, year FROM SearchResultItem";
             this._commandCollection[0].CommandType = global::System.Data.CommandType.Text;
         }
         
@@ -4631,7 +4845,7 @@ SELECT id, fk_QueryDataSourceRound_id, url, page_content, endnote_url, title, ab
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Delete, true)]
-        public virtual int Delete(int Original_id, int Original_fk_QueryDataSourceRound_id, string Original_title, string Original_date_publication, string Original_pages, string Original_type) {
+        public virtual int Delete(int Original_id, int Original_fk_QueryDataSourceRound_id, string Original_title, string Original_date_publication, string Original_pages, string Original_type, global::System.Nullable<int> Original_num_pages, global::System.Nullable<int> Original_position_results, global::System.Nullable<int> Original_weight_calculated, global::System.Nullable<int> Original_year) {
             this.Adapter.DeleteCommand.Parameters[0].Value = ((int)(Original_id));
             this.Adapter.DeleteCommand.Parameters[1].Value = ((int)(Original_fk_QueryDataSourceRound_id));
             if ((Original_title == null)) {
@@ -4666,6 +4880,38 @@ SELECT id, fk_QueryDataSourceRound_id, url, page_content, endnote_url, title, ab
                 this.Adapter.DeleteCommand.Parameters[8].Value = ((object)(0));
                 this.Adapter.DeleteCommand.Parameters[9].Value = ((string)(Original_type));
             }
+            if ((Original_num_pages.HasValue == true)) {
+                this.Adapter.DeleteCommand.Parameters[10].Value = ((object)(0));
+                this.Adapter.DeleteCommand.Parameters[11].Value = ((int)(Original_num_pages.Value));
+            }
+            else {
+                this.Adapter.DeleteCommand.Parameters[10].Value = ((object)(1));
+                this.Adapter.DeleteCommand.Parameters[11].Value = global::System.DBNull.Value;
+            }
+            if ((Original_position_results.HasValue == true)) {
+                this.Adapter.DeleteCommand.Parameters[12].Value = ((object)(0));
+                this.Adapter.DeleteCommand.Parameters[13].Value = ((int)(Original_position_results.Value));
+            }
+            else {
+                this.Adapter.DeleteCommand.Parameters[12].Value = ((object)(1));
+                this.Adapter.DeleteCommand.Parameters[13].Value = global::System.DBNull.Value;
+            }
+            if ((Original_weight_calculated.HasValue == true)) {
+                this.Adapter.DeleteCommand.Parameters[14].Value = ((object)(0));
+                this.Adapter.DeleteCommand.Parameters[15].Value = ((int)(Original_weight_calculated.Value));
+            }
+            else {
+                this.Adapter.DeleteCommand.Parameters[14].Value = ((object)(1));
+                this.Adapter.DeleteCommand.Parameters[15].Value = global::System.DBNull.Value;
+            }
+            if ((Original_year.HasValue == true)) {
+                this.Adapter.DeleteCommand.Parameters[16].Value = ((object)(0));
+                this.Adapter.DeleteCommand.Parameters[17].Value = ((int)(Original_year.Value));
+            }
+            else {
+                this.Adapter.DeleteCommand.Parameters[16].Value = ((object)(1));
+                this.Adapter.DeleteCommand.Parameters[17].Value = global::System.DBNull.Value;
+            }
             global::System.Data.ConnectionState previousConnectionState = this.Adapter.DeleteCommand.Connection.State;
             if (((this.Adapter.DeleteCommand.Connection.State & global::System.Data.ConnectionState.Open) 
                         != global::System.Data.ConnectionState.Open)) {
@@ -4686,7 +4932,7 @@ SELECT id, fk_QueryDataSourceRound_id, url, page_content, endnote_url, title, ab
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Insert, true)]
-        public virtual int Insert(int fk_QueryDataSourceRound_id, string url, string page_content, string endnote_url, string title, string _abstract, string date_publication, string pages, string type, string endnote_content, string errors_onload) {
+        public virtual int Insert(int fk_QueryDataSourceRound_id, string url, string page_content, string endnote_url, string title, string _abstract, string date_publication, string pages, string type, string endnote_content, string errors_onload, global::System.Nullable<int> num_pages, global::System.Nullable<int> position_results, global::System.Nullable<int> weight_calculated, global::System.Nullable<int> year) {
             this.Adapter.InsertCommand.Parameters[0].Value = ((int)(fk_QueryDataSourceRound_id));
             if ((url == null)) {
                 this.Adapter.InsertCommand.Parameters[1].Value = global::System.DBNull.Value;
@@ -4748,6 +4994,30 @@ SELECT id, fk_QueryDataSourceRound_id, url, page_content, endnote_url, title, ab
             else {
                 this.Adapter.InsertCommand.Parameters[10].Value = ((string)(errors_onload));
             }
+            if ((num_pages.HasValue == true)) {
+                this.Adapter.InsertCommand.Parameters[11].Value = ((int)(num_pages.Value));
+            }
+            else {
+                this.Adapter.InsertCommand.Parameters[11].Value = global::System.DBNull.Value;
+            }
+            if ((position_results.HasValue == true)) {
+                this.Adapter.InsertCommand.Parameters[12].Value = ((int)(position_results.Value));
+            }
+            else {
+                this.Adapter.InsertCommand.Parameters[12].Value = global::System.DBNull.Value;
+            }
+            if ((weight_calculated.HasValue == true)) {
+                this.Adapter.InsertCommand.Parameters[13].Value = ((int)(weight_calculated.Value));
+            }
+            else {
+                this.Adapter.InsertCommand.Parameters[13].Value = global::System.DBNull.Value;
+            }
+            if ((year.HasValue == true)) {
+                this.Adapter.InsertCommand.Parameters[14].Value = ((int)(year.Value));
+            }
+            else {
+                this.Adapter.InsertCommand.Parameters[14].Value = global::System.DBNull.Value;
+            }
             global::System.Data.ConnectionState previousConnectionState = this.Adapter.InsertCommand.Connection.State;
             if (((this.Adapter.InsertCommand.Connection.State & global::System.Data.ConnectionState.Open) 
                         != global::System.Data.ConnectionState.Open)) {
@@ -4780,12 +5050,20 @@ SELECT id, fk_QueryDataSourceRound_id, url, page_content, endnote_url, title, ab
                     string type, 
                     string endnote_content, 
                     string errors_onload, 
+                    global::System.Nullable<int> num_pages, 
+                    global::System.Nullable<int> position_results, 
+                    global::System.Nullable<int> weight_calculated, 
+                    global::System.Nullable<int> year, 
                     int Original_id, 
                     int Original_fk_QueryDataSourceRound_id, 
                     string Original_title, 
                     string Original_date_publication, 
                     string Original_pages, 
                     string Original_type, 
+                    global::System.Nullable<int> Original_num_pages, 
+                    global::System.Nullable<int> Original_position_results, 
+                    global::System.Nullable<int> Original_weight_calculated, 
+                    global::System.Nullable<int> Original_year, 
                     int id) {
             this.Adapter.UpdateCommand.Parameters[0].Value = ((int)(fk_QueryDataSourceRound_id));
             if ((url == null)) {
@@ -4848,41 +5126,97 @@ SELECT id, fk_QueryDataSourceRound_id, url, page_content, endnote_url, title, ab
             else {
                 this.Adapter.UpdateCommand.Parameters[10].Value = ((string)(errors_onload));
             }
-            this.Adapter.UpdateCommand.Parameters[11].Value = ((int)(Original_id));
-            this.Adapter.UpdateCommand.Parameters[12].Value = ((int)(Original_fk_QueryDataSourceRound_id));
-            if ((Original_title == null)) {
-                this.Adapter.UpdateCommand.Parameters[13].Value = ((object)(1));
+            if ((num_pages.HasValue == true)) {
+                this.Adapter.UpdateCommand.Parameters[11].Value = ((int)(num_pages.Value));
+            }
+            else {
+                this.Adapter.UpdateCommand.Parameters[11].Value = global::System.DBNull.Value;
+            }
+            if ((position_results.HasValue == true)) {
+                this.Adapter.UpdateCommand.Parameters[12].Value = ((int)(position_results.Value));
+            }
+            else {
+                this.Adapter.UpdateCommand.Parameters[12].Value = global::System.DBNull.Value;
+            }
+            if ((weight_calculated.HasValue == true)) {
+                this.Adapter.UpdateCommand.Parameters[13].Value = ((int)(weight_calculated.Value));
+            }
+            else {
+                this.Adapter.UpdateCommand.Parameters[13].Value = global::System.DBNull.Value;
+            }
+            if ((year.HasValue == true)) {
+                this.Adapter.UpdateCommand.Parameters[14].Value = ((int)(year.Value));
+            }
+            else {
                 this.Adapter.UpdateCommand.Parameters[14].Value = global::System.DBNull.Value;
             }
-            else {
-                this.Adapter.UpdateCommand.Parameters[13].Value = ((object)(0));
-                this.Adapter.UpdateCommand.Parameters[14].Value = ((string)(Original_title));
-            }
-            if ((Original_date_publication == null)) {
-                this.Adapter.UpdateCommand.Parameters[15].Value = ((object)(1));
-                this.Adapter.UpdateCommand.Parameters[16].Value = global::System.DBNull.Value;
-            }
-            else {
-                this.Adapter.UpdateCommand.Parameters[15].Value = ((object)(0));
-                this.Adapter.UpdateCommand.Parameters[16].Value = ((string)(Original_date_publication));
-            }
-            if ((Original_pages == null)) {
+            this.Adapter.UpdateCommand.Parameters[15].Value = ((int)(Original_id));
+            this.Adapter.UpdateCommand.Parameters[16].Value = ((int)(Original_fk_QueryDataSourceRound_id));
+            if ((Original_title == null)) {
                 this.Adapter.UpdateCommand.Parameters[17].Value = ((object)(1));
                 this.Adapter.UpdateCommand.Parameters[18].Value = global::System.DBNull.Value;
             }
             else {
                 this.Adapter.UpdateCommand.Parameters[17].Value = ((object)(0));
-                this.Adapter.UpdateCommand.Parameters[18].Value = ((string)(Original_pages));
+                this.Adapter.UpdateCommand.Parameters[18].Value = ((string)(Original_title));
             }
-            if ((Original_type == null)) {
+            if ((Original_date_publication == null)) {
                 this.Adapter.UpdateCommand.Parameters[19].Value = ((object)(1));
                 this.Adapter.UpdateCommand.Parameters[20].Value = global::System.DBNull.Value;
             }
             else {
                 this.Adapter.UpdateCommand.Parameters[19].Value = ((object)(0));
-                this.Adapter.UpdateCommand.Parameters[20].Value = ((string)(Original_type));
+                this.Adapter.UpdateCommand.Parameters[20].Value = ((string)(Original_date_publication));
             }
-            this.Adapter.UpdateCommand.Parameters[21].Value = ((int)(id));
+            if ((Original_pages == null)) {
+                this.Adapter.UpdateCommand.Parameters[21].Value = ((object)(1));
+                this.Adapter.UpdateCommand.Parameters[22].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.UpdateCommand.Parameters[21].Value = ((object)(0));
+                this.Adapter.UpdateCommand.Parameters[22].Value = ((string)(Original_pages));
+            }
+            if ((Original_type == null)) {
+                this.Adapter.UpdateCommand.Parameters[23].Value = ((object)(1));
+                this.Adapter.UpdateCommand.Parameters[24].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.UpdateCommand.Parameters[23].Value = ((object)(0));
+                this.Adapter.UpdateCommand.Parameters[24].Value = ((string)(Original_type));
+            }
+            if ((Original_num_pages.HasValue == true)) {
+                this.Adapter.UpdateCommand.Parameters[25].Value = ((object)(0));
+                this.Adapter.UpdateCommand.Parameters[26].Value = ((int)(Original_num_pages.Value));
+            }
+            else {
+                this.Adapter.UpdateCommand.Parameters[25].Value = ((object)(1));
+                this.Adapter.UpdateCommand.Parameters[26].Value = global::System.DBNull.Value;
+            }
+            if ((Original_position_results.HasValue == true)) {
+                this.Adapter.UpdateCommand.Parameters[27].Value = ((object)(0));
+                this.Adapter.UpdateCommand.Parameters[28].Value = ((int)(Original_position_results.Value));
+            }
+            else {
+                this.Adapter.UpdateCommand.Parameters[27].Value = ((object)(1));
+                this.Adapter.UpdateCommand.Parameters[28].Value = global::System.DBNull.Value;
+            }
+            if ((Original_weight_calculated.HasValue == true)) {
+                this.Adapter.UpdateCommand.Parameters[29].Value = ((object)(0));
+                this.Adapter.UpdateCommand.Parameters[30].Value = ((int)(Original_weight_calculated.Value));
+            }
+            else {
+                this.Adapter.UpdateCommand.Parameters[29].Value = ((object)(1));
+                this.Adapter.UpdateCommand.Parameters[30].Value = global::System.DBNull.Value;
+            }
+            if ((Original_year.HasValue == true)) {
+                this.Adapter.UpdateCommand.Parameters[31].Value = ((object)(0));
+                this.Adapter.UpdateCommand.Parameters[32].Value = ((int)(Original_year.Value));
+            }
+            else {
+                this.Adapter.UpdateCommand.Parameters[31].Value = ((object)(1));
+                this.Adapter.UpdateCommand.Parameters[32].Value = global::System.DBNull.Value;
+            }
+            this.Adapter.UpdateCommand.Parameters[33].Value = ((int)(id));
             global::System.Data.ConnectionState previousConnectionState = this.Adapter.UpdateCommand.Connection.State;
             if (((this.Adapter.UpdateCommand.Connection.State & global::System.Data.ConnectionState.Open) 
                         != global::System.Data.ConnectionState.Open)) {
@@ -4915,13 +5249,21 @@ SELECT id, fk_QueryDataSourceRound_id, url, page_content, endnote_url, title, ab
                     string type, 
                     string endnote_content, 
                     string errors_onload, 
+                    global::System.Nullable<int> num_pages, 
+                    global::System.Nullable<int> position_results, 
+                    global::System.Nullable<int> weight_calculated, 
+                    global::System.Nullable<int> year, 
                     int Original_id, 
                     int Original_fk_QueryDataSourceRound_id, 
                     string Original_title, 
                     string Original_date_publication, 
                     string Original_pages, 
-                    string Original_type) {
-            return this.Update(fk_QueryDataSourceRound_id, url, page_content, endnote_url, title, _abstract, date_publication, pages, type, endnote_content, errors_onload, Original_id, Original_fk_QueryDataSourceRound_id, Original_title, Original_date_publication, Original_pages, Original_type, Original_id);
+                    string Original_type, 
+                    global::System.Nullable<int> Original_num_pages, 
+                    global::System.Nullable<int> Original_position_results, 
+                    global::System.Nullable<int> Original_weight_calculated, 
+                    global::System.Nullable<int> Original_year) {
+            return this.Update(fk_QueryDataSourceRound_id, url, page_content, endnote_url, title, _abstract, date_publication, pages, type, endnote_content, errors_onload, num_pages, position_results, weight_calculated, year, Original_id, Original_fk_QueryDataSourceRound_id, Original_title, Original_date_publication, Original_pages, Original_type, Original_num_pages, Original_position_results, Original_weight_calculated, Original_year, Original_id);
         }
     }
     

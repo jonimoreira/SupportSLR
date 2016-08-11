@@ -117,19 +117,16 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="queryDataSourceRoundTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 56</value>
+  <data name="textBox2.Text" xml:space="preserve">
+    <value>%28%22early+warning+systems%22%29+and+%28%22interoperability%22%29+and+%28%22emergency+management%22+or+%22disaster+risk+reduction%22+or+%22situation+awareness%22+or+%22disaster+management%22+or+%22crisis+management%22%29</value>
+  </data>
+  <metadata name="queryDataSourceRoundBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>173, 17</value>
   </metadata>
   <metadata name="supportSLRDataSet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>271, 56</value>
+    <value>17, 17</value>
   </metadata>
-  <metadata name="queryDataSourceRoundBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>427, 56</value>
-  </metadata>
-  <data name="textBox2.Text" xml:space="preserve">
-    <value>science?_ob=ArticleListURL&amp;_method=tag&amp;searchtype=a&amp;refSource=search&amp;pdfDownloadSort=r&amp;PDF_DDM_MAX=25&amp;_st=13&amp;count=47&amp;sort=r&amp;filterType=&amp;_chunk={0}&amp;hitCount=47&amp;NEXT_LIST=1&amp;view=c&amp;md5=84925d7e729ae97d29350a013cfbc05c&amp;_ArticleListID=-1012283647&amp;chunkSize=25&amp;sisr_search=&amp;TOTAL_PAGES=2&amp;pdfDownload=&amp;zone=exportDropDown&amp;citation-type=RIS&amp;format=cite-abs&amp;bottomPaginationBoxChanged=&amp;bottomNext=Next+%3E%3E&amp;displayPerPageFlag=f&amp;resultsPerPage=25</value>
-  </data>
-  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>46</value>
+  <metadata name="queryDataSourceRoundTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>433, 17</value>
   </metadata>
 </root>
