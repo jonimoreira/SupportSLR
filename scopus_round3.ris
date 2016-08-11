@@ -1,0 +1,1494 @@
+TY  - JOUR
+TI  - Traffic incidents in motorways: An empirical proposal for incident detection using data from mobile phone operators
+T2  - Journal of Transport Geography
+VL  - 54
+SP  - 81
+EP  - 90
+PY  - 2016
+DO  - 10.1016/j.jtrangeo.2016.05.008
+AU  - Steenbruggen, J.
+AU  - Tranos, E.
+AU  - Rietveld, P.
+AD  - VU University Amsterdam, Department of Spatial Economics, De Boelelaan 1105, Amsterdam, Netherlands
+AD  - University of Birmingham, School of Geography, Earth and Environmental Sciences, Edgbaston, United Kingdom
+AB  - This paper proves that mobile phone usage data is an easy to use, cheap and most importantly, reliable predictor of motorway incidents. Using econometric modelling, this paper provides a proof of concept of how mobile phone usage data can be utilised to detect motorway incidents. Greater Amsterdam is used here as a case study and the results suggest that mobile phone usage data can be utilised for the development of an early warning system to support road traffic incident management. © 2016 Elsevier Ltd.
+KW  - Collective sensing
+KW  - Data science
+KW  - Mobile phone data
+KW  - Road traffic incident management
+N1  - Export Date: 11 August 2016
+M3  - Article
+DB  - Scopus
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-84973343728&partnerID=40&md5=2fc326dc7c905241eb8ba0f4f48ed43d
+ER  - 
+
+TY  - JOUR
+TI  - Design and prototype of an interoperable online air quality information system
+T2  - Environmental Modelling and Software
+VL  - 79
+SP  - 354
+EP  - 366
+PY  - 2016
+DO  - 10.1016/j.envsoft.2015.10.028
+AU  - Wiemann, S.
+AU  - Brauner, J.
+AU  - Karrasch, P.
+AU  - Henzen, D.
+AU  - Bernard, L.
+AD  - Chair of Geoinformatics, Technische Universität Dresden, Germany
+AB  - This paper focuses on the design and development of a Spatial Data Infrastructure (SDI)-compliant online system for air quality information retrieval, including support for real-time monitoring. This system assesses exposure to ambient air to mitigate potential health risks, which is crucial for susceptible individuals, health practitioners and decision makers. Particular attention is paid to the development of an interoperable, applicable and transferrable approach to the application of robust and flexible air quality modeling as required for early warning systems on the Web. Moreover, the design provides different access levels to system components for both non-expert and scientific users and supports extension with external standard compliant services. The developed Web-client Time2Maps enables the user to view, analyze and download requested air quality information and serves as a portal to the designed online system. © 2015 Elsevier Ltd.
+KW  - Air quality
+KW  - Sensor observations
+KW  - Spatial data infrastructure
+N1  - Export Date: 11 August 2016
+M3  - Article
+DB  - Scopus
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-84960251200&partnerID=40&md5=61c14b9d2afc8d62109437318c7416e2
+ER  - 
+
+TY  - CONF
+TI  - Comparison of the CUPUS middleware and MQTT protocol for smart city services
+T2  - Proceedings of the 13th International Conference on Telecommunications, ConTEL 2015
+PY  - 2015
+DO  - 10.1109/ConTEL.2015.7231225
+AU  - Antonic, A.
+AU  - Marjanovic, M.
+AU  - Skocir, P.
+AU  - Zarko, I.P.
+AD  - University of Zagreb, Faculty of Electrical Engineering and Computing, Department of Telecommunications, Unska 3, Zagreb, Croatia
+AB  - Publish/subscribe mebaging pattern is often used as a communication mechanism in data-oriented applications and is becoming wide-spread, especially due to the expansion of the Internet of Things (IoT) services and applications. In addition to MQTT, which is one of the commonly used publish/subscribe protocols in the context of IoT, there are a number of other mebage queuing solutions, either open or proprietary. We have designed a CloUd-based PUblish/Subscribe (CUPUS) middleware solution within the framework of the FP7 project OpenIoT1 that has developed an open-source cloud platform for the IoT. CUPUS is one of the core OpenIoT components which enables flexible integration of wearable sensors and mobile devices as data sources within the OpenIoT platform. In this paper we compare MQTT and CUPUS in the context of smart city application scenarios. Smart city services pose different key-requirements on IoT publish/subscribe solutions and thus we propose a taxonomy to identify vital features of IoT publish/subscribe middleware. The comparison shows that CUPUS is more appropriate for mobile environments with frequent context changes, while it can filter out unrequired data on devices prior to being reported to backend cloud servers. The MQTT protocol proves to be suitable for Wireleb Sensor Networks (WSNs) and heterogeneous environments due to its small code footprint, low bandwidth usage and standardized interfaces. Finally we evaluate the two solutions in terms of mebage footprint in a real-world scenario, latency and delivery semantics. © 2015 IEEE.
+KW  - Engines
+KW  - Middleware
+KW  - Mobile communication
+KW  - Mobile handsets
+KW  - Protocols
+KW  - Sensors
+N1  - Export Date: 11 August 2016
+M3  - Conference Paper
+DB  - Scopus
+C7  - 7231225
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-84960436338&partnerID=40&md5=bed3311c7967ed064750c4008cca5863
+ER  - 
+
+TY  - CONF
+TI  - An impact review on internet of things attacks
+T2  - Proceedings of 2015 International Conference on Emerging Trends in Networks and Computer Communications, ETNCC 2015
+SP  - 114
+EP  - 118
+PY  - 2015
+DO  - 10.1109/ETNCC.2015.7184819
+AU  - Gamundani, A.M.
+AD  - Computer Science Department, School of Computing and Informatics, Polytechnic of Namibia, Windhoek, Namibia
+AB  - The heterogeneity of devices that can seamlessly connect to each other and be attached to human beings has given birth to a new computing epitome referred to as the Internet of Things. The connectivity and scalability of such technological waves could be harnessed to improve service delivery in many application areas as revealed by recent studies on the Internet of Things' interoperability. However, for the envisaged benefits to be yielded from Internet of Things there are many security issues to be addressed, which range from application environments security concerns, connection technology inbuilt security issues, scalability and manageability issues. Given the increasing number of objects or "things" that can connect to each other unsupervised, the complexity of such a network is presenting a great concern both for the future internet's security and reliable operation. The focus of this paper was to review the impact of some of the attacks attributable to internet of things. A desktop review of work done under this area, using the qualitative methodology was employed. This research may contribute towards a roadmap for security design and future research on internet of things scalability. The deployment of future applications around Internet of Things may receive valuable insight as the nature of attacks and their perceived impacts will be unveiled and possible solutions could be developed around them. © 2015 IEEE.
+KW  - Attacks
+KW  - Denial of Service
+KW  - Internet of Things
+KW  - Man in the middle
+KW  - Replay
+KW  - Security
+N1  - Cited By :1
+N1  - Export Date: 11 August 2016
+M3  - Conference Paper
+DB  - Scopus
+C7  - 7184819
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-84957542244&partnerID=40&md5=df6a1c42eb4d505d48379052866c01f4
+ER  - 
+
+TY  - CONF
+TI  - EDXL-RESCUER ontology: An update based on faceted taxonomy approach
+T2  - CEUR Workshop Proceedings
+VL  - 1442
+PY  - 2015
+AU  - Barros, R.
+AU  - Kislansky, P.
+AU  - Salvador, L.
+AU  - Almeida, R.
+AU  - Breyer, M.
+AU  - Pedraza, L.G.
+AU  - Vieira, V.
+AD  - Federal University of Bahia, Brazil
+AD  - Fraunhofer Project Center for Software and Systems Engineering, UFBA, Brazil
+AD  - VOMATEC International GmbH, Germany
+AB  - This paper describes an ontology created for the RESCUER1 (Reliable and Smart Crowdsourcing Solution for Emergency and Crisis Management), a project funded by the European Union and the Brazilian Ministry of Science, Technology and Innovation. RESCUER uses crowdsourcing information for supporting Industrial Parks (InPa) and Security Forces during an emergency situation. The proposal, EDXL-RESCUER ontology, is based on EDXL (Emergency Data Exchange Language), and it aims to be the RESCUER conceptual model related to the coordinating and exchanging of information with legacy systems. The ontology was evaluated with end-users during a workshop and the results show that EDXL-RESCUER is adequate for Emergency and Crisis domain in InPa and Security forces contexts. Specifically, this paper presents an update of EDXL-RESCUER ontology based on a faceted taxonomy approach.
+N1  - Export Date: 11 August 2016
+M3  - Conference Paper
+DB  - Scopus
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-84944345864&partnerID=40&md5=46d2232ce6abf7a8fb1f9ac2899475db
+ER  - 
+
+TY  - CONF
+TI  - Data acquisition, processing and visualization for early warning information systems
+T2  - 2014 International Symposium on Fundamentals of Electrical Engineering, ISFEE 2014
+PY  - 2015
+DO  - 10.1109/ISFEE.2014.7050608
+AU  - Ionita, A.D.
+AU  - Olteanu, A.
+AD  - Industrial Informatics and Automation Department, University POLITEHNICA of Bucharest, Spl. Independentei 313, Bucharest, Romania
+AB  - Data acquisition, processing and visualization are generally part of any information system dedicated to early warning and are implemented in a large variety of ways. This paper analyzes the existing possibilities and presents a case study for a system focused on territorial vulnerabilities induced by nuclear facilities. One discusses the solutions adopted, the challenges and the aspects that are generic to warning systems, irrespective of the application domain. © 2014 IEEE.
+KW  - Data Systems
+KW  - Early Warning
+KW  - Software Architecture
+N1  - Export Date: 11 August 2016
+M3  - Conference Paper
+DB  - Scopus
+C7  - 7050608
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-84925597090&partnerID=40&md5=a05e1955f9e3f65c07df151d6f0c0c2d
+ER  - 
+
+TY  - CONF
+TI  - EDXL-RESCUER ontology: Conceptual model for semantic integration
+T2  - ISCRAM 2015 Conference Proceedings - 12th International Conference on Information Systems for Crisis Response and Management
+PY  - 2015
+AU  - Barros, R.
+AU  - Kislansky, P.
+AU  - Salvador, L.
+AU  - Almeida, R.
+AU  - Breyer, M.
+AU  - Gasparin, L.
+AD  - Federal University of Bahia, Fraunhofer Project Center for Software and Systems Engineering, UFBA, Brazil
+AD  - Federal University of Bahia, Brazil
+AD  - VOMATEC International GmbH, Germany
+AB  - This paper describes an ontology created for the RESCUER1 (Reliable and Smart Crowdsourcing Solution for Emergency and Crisis Management), a project funded by the European Union and the Brazilian Ministry of Science, Technology and Innovation, it uses crowdsourcing information for supporting Industrial Parks (InPa) and Security Forces during an emergency situation. The proposal, EDXL-RESCUER ontology, is based on EDXL (Emergency Data Exchange Language), and it aims to be the RESCUER conceptual model related to the coordinating and exchanging of information with legacy systems. The ontology was evaluated with end users during a workshop and the results show that EDXL-RESCUER is adequate for Emergency and Crisis domain in InPa and Security forces contexts.
+KW  - Crisis
+KW  - EDXL
+KW  - Emergency
+KW  - Ontology
+KW  - RESCUER
+N1  - Export Date: 11 August 2016
+M3  - Conference Paper
+DB  - Scopus
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-84947704969&partnerID=40&md5=73ff42faa60d584d38107033d98bf59d
+ER  - 
+
+TY  - JOUR
+TI  - A Semantic IoT Early Warning System for Natural Environment Crisis Management
+T2  - IEEE Transactions on Emerging Topics in Computing
+VL  - 3
+IS  - 2
+SP  - 246
+EP  - 257
+PY  - 2015
+DO  - 10.1109/TETC.2015.2432742
+AU  - Poslad, S.
+AU  - Middleton, S.E.
+AU  - Chaves, F.
+AU  - Tao, R.
+AU  - Necmioglu, O.
+AU  - Bugel, U.
+AD  - School of Electronic Engineering and Computer Science, Queen Mary University of London, London, United Kingdom
+AD  - Department of Electronics and Computer Science, University of Southampton IT Innovation Centre, Southampton, United Kingdom
+AD  - Information and Knowledge Management Systems, Fraunhofer Institute of Optronics, System Technologies and Image Exploitation, Karlsruhe, Germany
+AD  - Boʇaziçi University, Istanbul, Turkey
+AB  - An early warning system (EWS) is a core type of data driven Internet of Things (IoTs) system used for environment disaster risk and effect management. The potential benefits of using a semantic-type EWS include easier sensor and data source plug-and-play, simpler, richer, and more dynamic metadata-driven data analysis and easier service interoperability and orchestration. The challenges faced during practical deployments of semantic EWSs are the need for scalable time-sensitive data exchange and processing (especially involving heterogeneous data sources) and the need for resilience to changing ICT resource constraints in crisis zones. We present a novel IoT EWS system framework that addresses these challenges, based upon a multisemantic representation model. We use lightweight semantics for metadata to enhance rich sensor data acquisition. We use heavyweight semantics for top level W3C Web Ontology Language ontology models describing multileveled knowledge-bases and semantically driven decision support and workflow orchestration. This approach is validated through determining both system related metrics and a case study involving an advanced prototype system of the semantic EWS, integrated with a deployed EWS infrastructure. © 2013 IEEE.
+KW  - Crisis Management
+KW  - Early Warning System
+KW  - Internet of Things
+KW  - Resilience
+KW  - Time-critical
+N1  - Export Date: 11 August 2016
+M3  - Article
+DB  - Scopus
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-84933042298&partnerID=40&md5=9859d8bcaed9ddb5cfe060c9d2b47640
+ER  - 
+
+TY  - SER
+TI  - Sensor Web Enablement applied to an earthquake early warning system
+T2  - Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)
+VL  - 9258
+SP  - 51
+EP  - 62
+PY  - 2015
+DO  - 10.1007/978-3-319-23237-9_6
+AU  - Zambrano, A.M.
+AU  - Pérez, I.
+AU  - Palau, C.E.
+AU  - Esteve, M.
+AD  - Universitat Politècnica de València, Valencia, Spain
+AB  - Earthquake early warning systems are of high interest due to their consequences and life losses they may cause. Sensor Web Enablement (SWE) and their related standards allow interoperability of sensors from different vendors and detect earthquakes in advance. For the proposed system we propose the use of the Sensor Observation Service and smartphones as gateways to transmit information from their embedded sensors like the accelerometer. The paper includes an architecture to integrate and process this information, with the possibility of incorporate other sensors out of the smartphones, like seismographs and the generated date in the SOS harmonization platform. The system has been tested in an emulated environment in order to train it and eliminate false positives, improving early warning existing systems of this nature. © Springer International Publishing Switzerland 2015.
+KW  - Distributed system
+KW  - Early warning system
+KW  - Real time
+KW  - Sensor Observation Service
+KW  - Sensor Web Enablement
+KW  - Wireless sensor networks
+N1  - Export Date: 11 August 2016
+M3  - Conference Paper
+DB  - Scopus
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-84945529529&partnerID=40&md5=63b8b2c5e63030b59b5f3e793447c570
+ER  - 
+
+TY  - JOUR
+TI  - Mediation information system engineering based on hybrid service composition mechanism
+T2  - Journal of Systems and Software
+VL  - 108
+SP  - 39
+EP  - 59
+PY  - 2015
+DO  - 10.1016/j.jss.2015.05.064
+AU  - Boissel-Dallier, N.
+AU  - Benaben, F.
+AU  - Lorré, J.-P.
+AU  - Pingaud, H.
+AD  - Université de Toulouse - Mines Albi, 4 route de Teillet, Albi, France
+AD  - Linagora Toulouse, 3 Av Didier Daurat, Toulouse, France
+AD  - InteropSys, 23 Bd Victor Hugo, Colomiers, France
+AB  - Business-IT alignment nowadays has become crucial, with the expansion of service-based information systems and the need to collaborate with external partners. This research work therefore presents a hybrid service composition mechanism coupling logic-based and syntactic matchmaking of services and messages to transform a business process into an executable workflow. To meet the business requirements, this mechanism is based on both top-down and bottom-up approaches using available technical services and a generic semantic profile as pivot model. Whereas the service matchmaking focuses on the functional coverage of the generated workflow, the messageone generates the message transformation needed. © 2015 Elsevier Inc. All rights reserved.
+KW  - Interoperability
+KW  - Mediation Information systems
+KW  - Semantic web services
+N1  - Cited By :1
+N1  - Export Date: 11 August 2016
+M3  - Article
+DB  - Scopus
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-84937786811&partnerID=40&md5=dda33e85c4836bf008d6069bfb447d8d
+ER  - 
+
+TY  - SER
+TI  - Topics in environmental software systems
+T2  - IFIP Advances in Information and Communication Technology
+VL  - 448
+SP  - 26
+EP  - 43
+PY  - 2015
+AU  - Denzer, R.
+AD  - Environmental Informatics Institute (EII), Gaiberg, Germany
+AB  - Environmental software systems (ESS) are software systems supporting activities of environmental protection, environmental management, environmental policy and environmental sciences. ESS often overlap with adjacent application fields like security, agriculture, health or climate change. The ISESS conference series is one of several overlapping events which are devoted to environmental modelling and software systems. ISESS is probably the one international event which has the strongest focus on the software angle. This paper gives a historic perspective of 20 years of ISESS conferences. Starting with a historic review of the development of the field named “environmental software systems”, it puts the ISESS conference into the greater perspective of similar activities. Using the original materials the paper identifies typical themes subsumed under ESS, and highlights typical topics for the time. The paper is the only existing complete collection of activities of the IFIP working group 5.11 “Computers and Environment”. Material of all events, ISESS conferences as well as co-organised workshops has been collected in o central place and will also to be kept up to date in the future. © IFIP International Federation for Information Processing 2015.
+KW  - EDSS
+KW  - EIS
+KW  - Enviromaticss
+KW  - Environmental decision support systems
+KW  - Environmental informatics
+KW  - Environmental information systems
+KW  - Environmental software systems
+KW  - ESS
+KW  - ISESS
+N1  - Export Date: 11 August 2016
+M3  - Conference Paper
+DB  - Scopus
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-84922791100&partnerID=40&md5=fb53bd85583bdf49a5f3f6f98becb487
+ER  - 
+
+TY  - JOUR
+TI  - Integration of a limit-equilibrium model into a landslide early warning system
+T2  - Landslides
+VL  - 11
+IS  - 5
+SP  - 859
+EP  - 875
+PY  - 2014
+DO  - 10.1007/s10346-013-0416-2
+AU  - Thiebes, B.
+AU  - Bell, R.
+AU  - Glade, T.
+AU  - Jäger, S.
+AU  - Mayer, J.
+AU  - Anderson, M.
+AU  - Holcombe, L.
+AD  - School of Geography Science, Nanjing Normal University, No. 1 Wenyuan Road, Nanjing, China
+AD  - Department of Geography and Regional Research, University of Vienna, Universitaetsstr. 7, Vienna, Austria
+AD  - Geomer GmbH, Im Breitspiel 11 b, Heidelberg, Germany
+AD  - Department of Geography, University of Bonn, Meckenheimer Allee 166, Bonn, Germany
+AD  - Department of Civil Engineering, University of Bristol, Queen’s Building, University Walk, Bristol, United Kingdom
+AB  - Landslides are a significant hazard in many parts of the world and exhibit a high, and often underestimated, damage potential. Deploying landslide early warning systems is one risk management strategy that, amongst others, can be used to protect local communities. In geotechnical applications, slope stability models play an important role in predicting slope behaviour as a result of external influences; however, they are only rarely incorporated into landslide early warning systems. In this study, the physically based slope stability model CHASM (Combined Hydrology and Stability Model) was initially applied to a reactivated landslide in the Swabian Alb to assess stability conditions and was subsequently integrated into a prototype of a semi-automated landslide early warning system. The results of the CHASM application demonstrate that for several potential shear surfaces the Factor of Safety is relatively low, and subsequent rainfall events could cause instability. To integrate and automate CHASM within an early warning system, international geospatial standards were employed to ensure the interoperability of system components and the transferability of the implemented system as a whole. The CHASM algorithm is automatically run as a web processing service, utilising fixed, predetermined input data, and variable input data including hydrological monitoring data and quantitative rainfall forecasts. Once pre-defined modelling or monitoring thresholds are exceeded, a web notification service distributes SMS and email messages to relevant experts, who then determine whether to issue an early warning to local and regional stakeholders, as well as providing appropriate action advice. This study successfully demonstrated the potential of this new approach to landslide early warning. To move from demonstration to active issuance of early warnings demands the future acquisition of high-quality data on mechanical properties and distributed pore water pressure regimes. © 2013, Springer-Verlag Berlin Heidelberg.
+KW  - CHASM (Combined Hydrology and Stability Model)
+KW  - Early warning system
+KW  - Landslide
+KW  - Modelling
+KW  - Physically based
+KW  - Swabian Alb
+KW  - Web notification service
+KW  - Web processing service
+N1  - Cited By :7
+N1  - Export Date: 11 August 2016
+M3  - Article
+DB  - Scopus
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-84958845119&partnerID=40&md5=2ea13601d3414d1a5efd564b6f0c83e7
+ER  - 
+
+TY  - JOUR
+TI  - A heterogeneous sensor web node meta-model for the management of a flood monitoring system
+T2  - Environmental Modelling and Software
+VL  - 54
+SP  - 222
+EP  - 237
+PY  - 2014
+DO  - 10.1016/j.envsoft.2014.01.014
+AU  - Chen, N.
+AU  - Wang, K.
+AU  - Xiao, C.
+AU  - Gong, J.
+AD  - State Key Lab for Information Engineering in Surveying, Mapping and Remote Sensing, Wuhan University, 129 Luoyu Road, Wuhan 430079, Hubei, China
+AB  - A geospatial sensor web can be seen as a complex observation system consisting of distributed nodes with different functions and web-based access interfaces. Because of its heterogeneous characteristic, the precise discovery and efficient allocation of available nodes have become key problems in the field of sensor web resource integrated management. Considering the management requirements of a flood monitoring system, we propose a sensor web heterogeneous node meta-model and discuss the development of five basic metadata components, the design of a nine-tuple node information description structure. A prototype system GeosensorNodeManager is implemented to provide the functions of modeling, querying, and visualizing node resources. For the application scenario of flood monitoring, the flood forecasting task is selected as an example to test the versatility of the proposed node meta-model and the applicability of the formal expression based on the nine-tuple metadata framework. Results show that the proposed meta-model can be used in the modeling of three different types of sensor web nodes with the extension mechanism. By querying and visualizing the sensor web node instances in the Yangtze River basin, the node meta-model provides an effective way for the resource management of a flood monitoring sensor web system. Compared with the typical flood monitoring platform "Sentinel Asia," the proposed meta-model can offer a succinct description of the system and lay the component model foundation for architecture design. © 2014 Elsevier Ltd.
+KW  - Flood monitoring
+KW  - Heterogeneous node meta-model
+KW  - Node management
+KW  - Node metadata
+KW  - Sensor web
+N1  - Cited By :14
+N1  - Export Date: 11 August 2016
+M3  - Article
+DB  - Scopus
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-84893429791&partnerID=40&md5=8c06cafce1e3c92b406101cad5f6e25b
+ER  - 
+
+TY  - JOUR
+TI  - Designing a flood forecasting and inundation-mapping system integrated with spatial data infrastructures for Turkey
+T2  - Natural Hazards
+VL  - 71
+IS  - 1
+SP  - 895
+EP  - 911
+PY  - 2014
+DO  - 10.1007/s11069-013-0939-9
+AU  - Akinci, H.
+AU  - Erdoǧan, S.
+AD  - Department of Geomatics Engineering, Artvin Çoruh University, 08000 Artvin, Turkey
+AD  - Şişli Cadastre Unit, Istanbul Cadastre Office, Büyükdere Cad. No:102, Şişli, Istanbul, Turkey
+AB  - Turkey currently lacks a fully functional flood forecasting system (FFS). However, the studies necessary for establishing such a system are still being performed by the Turkish State Meteorological Service. The main purpose of this study was to determine the technical architecture of the FFS intended to be developed in Turkey and to design a flood forecasting and inundation-mapping system integrated with spatial data infrastructure (SDI). Because SDIs provide interoperability among the institutions by enabling collective use of data and services, this enables decision makers to take correct and rapid decisions regarding the forecasting. In the design of the system, the Web services architecture presented by the open geospatial consortium that develops international standards for SDI realizations was taken as a basis. Designed with flexibility and an expandable architecture, the system will enable instant access to up-to-date data from different institutions through Web services and meets the requirements of a real-time FFS. While the criteria requiring the expansion of the designed system were explained, its implementation was left for future studies. © 2013 Springer Science+Business Media Dordrecht.
+KW  - Flood forecasting and inundation-mapping system
+KW  - OGC
+KW  - SDI
+KW  - Web services
+N1  - Cited By :1
+N1  - Export Date: 11 August 2016
+M3  - Article
+DB  - Scopus
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-84893965061&partnerID=40&md5=e04a35214d88e15a216a5b024dcdf867
+ER  - 
+
+TY  - CONF
+TI  - The trend towards the Internet of Things: What does it help in disaster and risk management?
+T2  - Proceedings of the 5th International Disaster and Risk Conference: Integrative Risk Management - The Role of Science, Technology and Practice, IDRC Davos 2014
+SP  - 723
+EP  - 726
+PY  - 2014
+AU  - Usländer, T.
+AD  - Fraunhofer IOSB, Karlsruhe, Germany
+AB  - According to the Gartners' hype cycle, the emerging Internet of Things (IoT) is close to the top of public awareness and expectations. However, looking beyond its use as a buzzword, there is a clear technological trend that will affect the amount and type of information that is available in Risk and Disaster Management. The seamless interconnection of devices to the Internet, being sensors of all types ranging from in-situ measurement devices, sensors on smart phones up to hyper-spectral cameras mounted on satellites, offers an enormous potential for the improvement in recognizing and assessing risks, for the targeted launch of preventive measures e.g. improved quality, preciseness and personalization of early warnings. The same is true for the decision support in disaster management. However, to exploit this potential, there is an urgent need to improve interoperability. Therefore, this contribution argues for an open, standardized approach of sensor-based global information management based upon international standards. It provides an overview about the relevant initiatives (e.g. GEOSS, European Research Cluster on the Internet of Things IERC) and standardization bodies (e.g. ISO, OGC) and their architectural approaches for the IoT. Furthermore, highlights and results of relevant projects will be presented, e.g. EO2HEAVEN in the domains of environment and health, TRIDEC for better decision support in tsunami early warning systems, and OpenIoT for an open source IoT software platform. The talk concludes with an assessment of the current user requirements and technological trends and a discussion of the next steps to be taken in order to exploit the potential of the IoT for the benefit of risk and disaster management improvement, however, also having in mind cyber security concerns.
+KW  - Early warning
+KW  - Internet of Things
+KW  - OpenIoT
+KW  - Sensors
+KW  - Standards
+N1  - Export Date: 11 August 2016
+M3  - Conference Paper
+DB  - Scopus
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-84924991867&partnerID=40&md5=82d873a60622c536997f82714973b1d3
+ER  - 
+
+TY  - CONF
+TI  - Effective knowledge management using tag-based semantic annotation for web of things devices
+T2  - Proceedings of the European Conference on Knowledge Management, ECKM
+VL  - 3
+SP  - 1091
+EP  - 1098
+PY  - 2014
+AU  - Amir, M.
+AU  - Fun Hu, Y.
+AU  - Pillai, P.
+AD  - Engineering and Informatics, University of Bradford, Bradford, United Kingdom
+AB  - Knowledge management in resource-intensive and big data applications involving multiple parties where collaboration is a pre-requisite to the successful operation of the system remains a topic of much-needed innovation, especially in the wake of growing resource-intensive applications such as disaster management and smart environments. Analysis of existing literature reveals the growing need to tackle the issue of unified data dissemination. Where this issue has been given some focus, the outreach has been more or less limited to similar systems (i.e. cross-instance collaboration) and no particular focus has been applied on the problem of exposing this data or knowledge to third parties (i.e. crossvendor collaboration), which necessitates integration of semantic technologies. This paper proposes an integration of semantic technologies within the Web of Things based on the concept and principles of the Service-Oriented Architecture to realize a semi-autonomous multi-party collaboration framework that is capable of offering cross-vendor information exchange and collaboration facilities. Powered by the JENA semantic engine and exposed as a web application with a RESTful API, the generic framework offers an extensible knowledge management system for dynamic Web of Things applications. Disaster management is taken as a potential application scenario to critically analyse and evaluate the system prototype and show that the proposed framework is capable of meeting the ever-increasing needs of cross-vendor information sharing and exchange needs in today's applications. The paper presents an analysis of tag-based semantic profiling and annotation of devices in a distributed sensor network and discusses the correlation of increased profiling accuracy and reduced mapping ambiguity with an increase in the number and quality of tags provided during the profiling phase. The paper concludes by asserting that tag-based semantic profiling of network assets is an effective and maintainable mechanism for the semantic annotation of devices and for meeting the knowledge management needs of the Web of Things.
+KW  - Disaster management
+KW  - Multi-part collaboration framework
+KW  - Semantic annotation
+KW  - Semantic sensor network ontology
+KW  - Semantic web
+KW  - Web of things
+N1  - Export Date: 11 August 2016
+M3  - Conference Paper
+DB  - Scopus
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-84962881140&partnerID=40&md5=7109fbc34e38d5390c2194948d728519
+ER  - 
+
+TY  - JOUR
+TI  - An integrated system for regional environmental monitoring and management based on internet of things
+T2  - IEEE Transactions on Industrial Informatics
+VL  - 10
+IS  - 2
+SP  - 1596
+EP  - 1605
+PY  - 2014
+DO  - 10.1109/TII.2014.2302638
+AU  - Fang, S.
+AU  - Xu, L.D.
+AU  - Zhu, Y.
+AU  - Ahati, J.
+AU  - Pei, H.
+AU  - Yan, J.
+AU  - Liu, Z.
+AD  - LREIS, IGSNRR, CAS, Beijing 100101, China
+AD  - Institute of Computing Technology, Chinese Academy of Sciences, Beijing 100080, China
+AD  - Shanghai Jiao Tong University, Shanghai 200240, China
+AD  - University of Science and Technology of China, Hefei 230026, China
+AD  - Old Dominion University, Norfolk, VA 23529, United States
+AD  - Xinjiang Academy of Environmental Protection Science, Urumqi 830011, China
+AD  - College of Information Science and Engineering, Yanshan University, Qinhuangdao 066004, China
+AD  - College of Resources and Environment Science, Oasis Ecology Key Laboratory of the Ministry of Education, Xinjiang University, Urumqi 830046, China
+AB  - Climate change and environmental monitoring and management have received much attention recently, and an integrated information system (IIS) is considered highly valuable. This paper introduces a novel IIS that combines Internet of Things (IoT), Cloud Computing, Geoinformatics [remote sensing (RS), geographical information system (GIS), and global positioning system (GPS)], and e-Science for environmental monitoring and management, with a case study on regional climate change and its ecological effects. Multi-sensors and web services were used to collect data and other information for the perception layer; both public networks and private networks were used to access and transport mass data and other information in the network layer. The key technologies and tools include real-time operational database (RODB); extraction-transformation-loading (ETL); on-line analytical processing (OLAP) and relational OLAP (ROLAP); naming, addressing, and profile server (NAPS); application gateway (AG); application software for different platforms and tasks (APPs); IoT application infrastructure (IoT-AI); GIS and e-Science platforms; and representational state transfer/Java database connectivity (RESTful/JDBC). Application Program Interfaces (APIs) were implemented in the middleware layer of the IIS. The application layer provides the functions of storing, organizing, processing, and sharing of data and other information, as well as the functions of applications in environmental monitoring and management. The results from the case study show that there is a visible increasing trend of the air temperature in Xinjiang over the last 50 years (1962-2011) and an apparent increasing trend of the precipitation since the early 1980s. Furthermore, from the correlation between ecological indicators [gross primary production (GPP), net primary production (NPP), and leaf area index (LAI)] and meteorological elements (air temperature and precipitation), water resource availability is the decisive factor with regard to the terrestrial ecosystem in the area. The study shows that the research work is greatly benefited from such an IIS, not only in data collection supported by IoT, but also in Web services and applications based on cloud computing and e-Science platforms, and the effectiveness of monitoring processes and decision-making can be obviously improved. This paper provides a prototype IIS for environmental monitoring and management, and it also provides a new paradigm for the future research and practice; especially in the era of big data and IoT. © 2012 IEEE.
+KW  - Big data
+KW  - climate change
+KW  - cloud computing
+KW  - e-Science
+KW  - enterprise systems
+KW  - environmental monitoring and management
+KW  - geoinformatics
+KW  - industrial informatics
+KW  - Internet of Things (IoT)
+KW  - System integration
+N1  - Cited By :32
+N1  - Export Date: 11 August 2016
+M3  - Article
+DB  - Scopus
+C7  - 6725615
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-84900830200&partnerID=40&md5=04c60595ef7b7950cacab7a8c652020f
+ER  - 
+
+TY  - JOUR
+TI  - Simulation and anticipation of domino effects among critical infrastructures
+T2  - International Journal of Critical Infrastructures
+VL  - 9
+IS  - 4
+SP  - 275
+EP  - 303
+PY  - 2013
+DO  - 10.1504/IJCIS.2013.058170
+AU  - Robert, B.
+AU  - Morabito, L.
+AU  - Debernard, C.
+AD  - Département de Mathématiques et de Génie Industriel, Bureau A-305.31, C.P. 6079, Succursale Centre-ville, H3C 3A7 Montréal QC, Canada
+AB  - Interdependencies among critical infrastructures (CIs) are the cause of domino effects that may have serious consequences for society. To limit the consequences of these phenomena, it is important to be able to anticipate any situation that may trigger a domino effect. To do so, it is necessary to have a good understanding of how CIs are interlinked and how they rely on each other to properly operate. Once this achieved, a system must be put in place in order to model the possible propagation of domino effects and to alert the right people at the right time in order for them to take proper action. This paper presents a prototype of an early warning system (EWS) designed to anticipate and model the propagation of failures among CIs. Called DOMINO, this system makes it possible to rapidly visualise, in time and space, the propagation of a domino effect and to promptly identify the critical infrastructures potentially impacted. Along with effective communication systems, such tool can facilitate the exchange of relevant information between infrastructures operators and managers enabling them to put in place mitigation measures and to limit the consequences of domino effects. © 2013 Inderscience Enterprises Ltd.
+KW  - Anticipation
+KW  - Communication systems
+KW  - Critical infrastructures
+KW  - Domino effects
+KW  - Early warning system
+KW  - EWS
+KW  - Interdependencies
+KW  - Mitigation measures
+KW  - Simulation
+N1  - Cited By :2
+N1  - Export Date: 11 August 2016
+M3  - Article
+DB  - Scopus
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-84890530477&partnerID=40&md5=d22e6600bfac1668406e35d91c3926ae
+ER  - 
+
+TY  - CONF
+TI  - Semantic registries for heterogeneous sensor networks: Bridging the semantic gap for collaborative crises management
+T2  - Proceedings - International Workshop on Database and Expert Systems Applications, DEXA
+SP  - 118
+EP  - 122
+PY  - 2013
+DO  - 10.1109/DEXA.2013.18
+AU  - Chaves, F.
+AU  - Mossgraber, J.
+AU  - Schenk, M.
+AU  - Bugel, U.
+AD  - Fraunhofer Institute of Optronics, System Technologies and Image Exploitation IOSB, Karlsruhe, Germany
+AB  - The management of heterogeneous sensor networks is a complex task. Moreover, such networks often form an isolated system that needs to be connected to other network systems. Therefore, a system-of-systems approach is required. A sensor registry is the central part of a distributed sensor network. In this paper, we describe how to enhance sensor registries with semantic technologies in order to overcome some of their limitations. The Sensor Web Enablement standards of the Open Geospatial Consortium constitute a consistent and flexible framework in order to assure syntactical interoperability between applications, which make abundant use of data from sensor networks operated by heterogeneous stakeholders. The data model used throughout these standards is the Observation &amp; Measurement model. The conversion into an ontology provides an easier handling of the model. In this paper, we propose the use of such an ontology as the basis of a Semantic Registry. Besides providing the information about the available sensor infrastructure and their semantically rich annotations, it can easily be extended to handle for example information about available services for data analysis or simulations. Furthermore, the resilience of the SRs is a crucial point in the system architecture to prevent it becoming a single point of failure. © 2013 IEEE.
+KW  - ontology management
+KW  - semantic registry
+KW  - semantic sensor network (SSN) ontology
+KW  - service choreography
+KW  - service orchestration
+KW  - system-of-systems (SoS)
+N1  - Cited By :1
+N1  - Export Date: 11 August 2016
+M3  - Conference Paper
+DB  - Scopus
+C7  - 6621357
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-84887934926&partnerID=40&md5=be659557b5f76cdff5de06b7efb7ca99
+ER  - 
+
+TY  - JOUR
+TI  - The role of communication systems in smart grids: Architectures, technical solutions and research challenges
+T2  - Computer Communications
+VL  - 36
+IS  - 17-18
+SP  - 1665
+EP  - 1697
+PY  - 2013
+DO  - 10.1016/j.comcom.2013.09.004
+AU  - Ancillotti, E.
+AU  - Bruno, R.
+AU  - Conti, M.
+AD  - Italian National Research Council (CNR), Institute for Informatics and Telematics (IIT), Via G. Moruzzi 1, 56124 Pisa, Italy
+AB  - The purpose of this survey is to present a critical overview of smart grid concepts, with a special focus on the role that communication, networking and middleware technologies will have in the transformation of existing electric power systems into smart grids. First of all we elaborate on the key technological, economical and societal drivers for the development of smart grids. By adopting a data-centric perspective we present a conceptual model of communication systems for smart grids, and we identify functional components, technologies, network topologies and communication services that are needed to support smart grid communications. Then, we introduce the fundamental research challenges in this field including communication reliability and timeliness, QoS support, data management services, and autonomic behaviors. Finally, we discuss the main solutions proposed in the literature for each of them, and we identify possible future research directions. © 2013 Elsevier B.V. All rights reserved.
+KW  - Communication architecture and protocols
+KW  - Control and management
+KW  - Middleware
+KW  - Security
+KW  - Smart grid
+N1  - Cited By :60
+N1  - Export Date: 11 August 2016
+M3  - Review
+DB  - Scopus
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-84893638684&partnerID=40&md5=0c61c0f7ee38b89bb947732396cfaded
+ER  - 
+
+TY  - JOUR
+TI  - Design and function of the European forest fire information system
+T2  - Photogrammetric Engineering and Remote Sensing
+VL  - 79
+IS  - 10
+SP  - 965
+EP  - 973
+PY  - 2013
+DO  - 10.14358/PERS.79.10.965
+AU  - McInerney, D.
+AU  - San-Miguel-Ayanz, J.
+AU  - Corti, P.
+AU  - Whitmore, C.
+AU  - Giovando, C.
+AU  - Camia, A.
+AD  - European Commission DG Joint Research Centre, Forest Resources and Climate Unit, Institute for Environment and Sustainability, Ispra, VA-21027, Italy
+AD  - Laboratoire des Sciences du Climat et l'Environnement (LSCE), Orme des Merisiers, 91191 Gif-Sur-Yvette, France
+AD  - Via C.G. Viola 68 Parco dei Medici, I-00148 Rome, Italy
+AB  - The European Forest Fire Information System (EFFIS) is a modular decision support system that monitors forest fires at a continental scale. It delivers real-time, multi-dimensional data on forest fires to civil protection and fire fighting services in Europe, North Africa, and the Middle-East. Since its inception in 2001, EFFIS has evolved into the central reference point for pan-European forest and wildfire information, and this paper describes and current applications demonstrate the state-of-the-art fire information systems that provide data to civil protection authorities across Europe. The objective of EFFIS is to provide accurate data in order to assess and mitigate the impacts of wildfire events on society and the environment. Furthermore, EFFIS provides real-time information on critical fires, supporting decision making for international collaboration on forest fi re fighting activities. Its goal is to make these data readily available using Web-based standards and protocols. © 2013 American Society for Photogrammetry and Remote Sensing.
+N1  - Cited By :2
+N1  - Export Date: 11 August 2016
+M3  - Article
+DB  - Scopus
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-84884934042&partnerID=40&md5=4695e4b7c504074388b1b89a8453015d
+ER  - 
+
+TY  - JOUR
+TI  - Toward global drought early warning capability: Expanding international cooperation for the development of a framework for monitoring and forecasting
+T2  - Bulletin of the American Meteorological Society
+VL  - 94
+IS  - 6
+SP  - 776
+EP  - 785
+PY  - 2013
+DO  - 10.1175/BAMS-D-11-00176.1
+AU  - Pozzi, W.
+AU  - Sheffield, J.
+AU  - Stefanski, R.
+AU  - Cripe, D.
+AU  - Pulwarty, R.
+AU  - Vogt, J.V.
+AU  - Heim Jr., R.R.
+AU  - Brewer, M.J.
+AU  - Svoboda, M.
+AU  - Westerhoff, R.
+AU  - Van Dijk, A.I.J.M.
+AU  - Lloyd-Hughes, B.
+AU  - Pappenberger, F.
+AU  - Werner, M.
+AU  - Dutra, E.
+AU  - Wetterhall, F.
+AU  - Wagner, W.
+AU  - Schubert, S.
+AU  - Mo, K.
+AU  - Nicholson, M.
+AU  - Bettio, L.
+AU  - Nunez, L.
+AU  - Van Beek, R.
+AU  - Bierkens, M.
+AU  - De Goncalves, L.G.G.
+AU  - De Mattos, J.G.Z.
+AU  - Lawford, R.
+AD  - Institute of Photogrammetry and Remote Sensing (IPF), Vienna University of Technology, Gusshausstrasse 27-29, 1040 Vienna, Austria
+AD  - Department of Civil and Environmental Engineering, Princeton University, Princeton, NJ, United States
+AD  - Agricultural Meteorological Division, Climate and Water Department, World Meteorological Organization, Geneva, Switzerland
+AD  - Group on Earth Observations Secretariat, Geneva, Switzerland
+AD  - National Integrated Drought Information System, Boulder, CO, United States
+AD  - European Commission, Joint Research Centre, Ispra, Italy
+AD  - NOAA National Climatic Data Center, Asheville, NC, United States
+AD  - Deltares, Delft, Netherlands
+AD  - Commonwealth Scientific and Industrial Research Organisation, Australian National University, Canberra, Australia
+AD  - Predictability and Diagnostics Section, European Centre for Medium-Range Weather Forecasts, Reading, United Kingdom
+AD  - UNESCO-IHE and Deltares, Delft, Netherlands
+AD  - Walker Institute, University of Reading, United Kingdom
+AD  - Monitoring Program Area Leader, National Drought Mitigation Center, Lincoln, NE, United States
+AD  - NASA/GSFC, Greenbelt, MD, United States
+AD  - U.S. Center for Climate Prediction, NOAA, Washington, DC, United States
+AD  - Australia Bureau of Agricultural and Economic Sciences, Canberra, Australia
+AD  - Argentina Servicio Meteorologico Nacional, Buenos Aires, Argentina
+AD  - National Climate Centre, Bureau of Meteorology, Melbourne, Australia
+AD  - Geosciences, Universiteit Utrecht, Netherlands
+AD  - Centro de Previsão de Tempo e Estudos Climáticos, Instituto Nacional de Pesquisas Espaciais, São Paulo, Brazil
+AD  - Morgan State University, Baltimore, MD, United States
+AB  - Significant efforts are being made expanding international cooperation for the development of a framework for monitoring and forecasting. The Intergovernmental Panel on Climate Change has noted that average annual river runoff and water availability are projected to decrease by 10%-13% over some dry and semiarid regions in mid and low latitudes, increasing the frequency, intensity, and duration drought, along with its associated impacts. Significant progress has been made toward developing the Global Drought Early Warning Monitoring Framework (GDEWF), an underlying partnership and framework, along with its Global Drought Early Warning System (GDEWS), which is its interoperable information system, and the organizations that have been working together to make it a reality. The GDEWF aims to improve existing regional and national drought monitoring and forecasting capabilities by adding a global component, facilitating continental monitoring and forecasting and improving these tools at various scales.
+N1  - Cited By :32
+N1  - Export Date: 11 August 2016
+M3  - Article
+DB  - Scopus
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-84876576153&partnerID=40&md5=d46a78e372b326a0140dc7fcd529ebe8
+ER  - 
+
+TY  - JOUR
+TI  - High-level information fusion: An overview
+T2  - Journal of Advances in Information Fusion
+VL  - 8
+IS  - 1
+SP  - 33
+EP  - 72
+PY  - 2013
+AU  - Foo, P.H.
+AU  - Ng, G.W.
+AD  - DSO National Laboratories, 20 Science Park Drive, Singapore 118230, Singapore
+AB  - Data and information fusion (DIF) involves a process of combining data and information from multiple inputs. The purpose is to derive enriched information compared to that obtained from each individual input. DIF techniques were first introduced to the research community in the 1970s. The scope of applications that use DIF techniques for problem-solving has extended tremendously from the military arena at the initial stage to many non-military sectors at present. The Joint Directors of Laboratories data fusion (JDL DF) model is possibly the most widely used model for data fusion. In this functional model, the hierarchical process of data and information fusion comprises two stages, the low-level fusion processes and the high-level fusion processes. After years of intensive research that is mainly focused on low-level information fusion (IF), the focus is currently shifting towards high-level information fusion. Compared to the increasingly mature field of low-level IF, theoretical and practical challenges posed by high-level IF are more difficult to handle. Contributing factors include the lack of: well-defined spatio-temporal constraints on relevant evidence, well-defined ontological constraints on relevant evidence and suitable models for causality. In this survey paper, we first review process models proposed for data and information fusion over the past few decades. Next, we present an overview of existing work on high-level information fusion, based on the fusion levels of the current JDL DF model. Finally, we discuss relevant application areas and topics with potential for further research. © 2013 JAIF.
+N1  - Cited By :15
+N1  - Export Date: 11 August 2016
+M3  - Article
+DB  - Scopus
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-84885026945&partnerID=40&md5=0e0f4276d25e3d8abecc5c9a9f9d1620
+ER  - 
+
+TY  - JOUR
+TI  - Use of the earth observing one (EO-1) satellite for the namibia sensorweb flood early warning pilot
+T2  - IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing
+VL  - 6
+IS  - 2
+SP  - 298
+EP  - 308
+PY  - 2013
+DO  - 10.1109/JSTARS.2013.2255861
+AU  - Mandl, D.
+AU  - Frye, S.
+AU  - Cappelaere, P.
+AU  - Handy, M.
+AU  - Policelli, F.
+AU  - Katjizeu, M.
+AU  - Van Langenhove, G.
+AU  - Aube, G.
+AU  - Saulnier, J.-F.
+AU  - Sohlberg, R.
+AU  - Silva, J.A.
+AU  - Kussul, N.
+AU  - Skakun, S.
+AU  - Ungar, S.G.
+AU  - Grossman, R.
+AU  - Szarzynski, J.
+AD  - Software Systems Engineering Branch (Code 581), NASA/Goddard Space Flight Center, Greenbelt, MD 20771, United States
+AD  - SGT, Greenbelt, MD 20770, United States
+AD  - Vightel Inc., Ellicott City, MD 21043, United States
+AD  - Ground Software Systems Branch (Code 583), NASA/Goddard Space Flight Center, Greenbelt, MD 20771, United States
+AD  - Earth Science Division (Code 610), NASA/Goddard Space Flight Center, Greenbelt, MD 20771, United States
+AD  - Ministry of Agriculture, Water and Forestry, Department of Hydrology, Windhoek, Namibia
+AD  - Canadian Space Agency, Saint-Hubert, QC J3Y 8Y9, Canada
+AD  - Department of Geographical Sciences, Univ. of Maryland, College Park, MD, USA, United States
+AD  - Department of Geographical Sciences, Univ. of Maryland, College Park, MD 20742, United States
+AD  - Space Research Institute NASU-NSAU, Kyiv 03680, Ukraine
+AD  - Biospherics Science Branch (Code 618), NASA/Goddard Space Flight Center, Greenbelt, MD 20771, United States
+AD  - Computation Institute, University of Chicago, Searle Chemistry Laboratory, Chicago, IL 60637, United States
+AD  - United Nations University, 53113 Bonn, Germany
+AB  - The Earth Observing One (EO-1) satellite was launched in November 2000 as a one year technology demonstration mission for a variety of space technologies. After the first year, it was used as a pathfinder for the creation of SensorWebs. A SensorWeb is the integration of a variety of space, airborne and ground sensors into a loosely coupled collaborative sensor system that automatically provides useful data products. Typically, a SensorWeb is comprised of heterogeneous sensors tied together with an open messaging architecture and web services. SensorWebs provide easier access to sensor data, automated data product production and rapid data product delivery. Disasters are the perfect arena to test SensorWeb functionality since emergency workers and managers need easy and rapid access to satellite, airborne and in-situ sensor data as decision support tools. The Namibia Early Flood Warning SensorWeb pilot project was established to experiment with various aspects of sensor interoperability and SensorWeb functionality. The SensorWeb system features EO-1 data along with other data sets from such satellites as Radarsat, Terra and Aqua. Finally, the SensorWeb team began to examine how to measure economic impact of SensorWeb technology infusion. This paper describes the architecture and software components that were developed along with performance improvements that were experienced. Also, problems and challenges that were encountered are described along with a vision for future enhancements to mitigate some of the problems. © 2008-2012 IEEE.
+KW  - Earth Observing One (EO-1)
+KW  - Flood Early Warning
+KW  - sensor systems and applications
+KW  - SensorWeb
+N1  - Cited By :8
+N1  - Export Date: 11 August 2016
+M3  - Article
+DB  - Scopus
+C7  - 6509993
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-84877921237&partnerID=40&md5=ee0f49e7b684379cbf021c6713ff2015
+ER  - 
+
+TY  - CONF
+TI  - Twitter early tsunami warning system: A case study in Indonesia's natural disaster management
+T2  - Proceedings of the Annual Hawaii International Conference on System Sciences
+SP  - 2050
+EP  - 2060
+PY  - 2013
+DO  - 10.1109/HICSS.2013.579
+AU  - Chatfield, A.T.
+AU  - Brajawidagda, U.
+AD  - School of Information Systems and Technology, University of Wollongong, Australia
+AD  - Batam Polytechnic, Indonesia
+AB  - Twitter demonstrated its value as a viable substitute to traditional communication channels during the recent disasters. However, little is written about Twitter in government for an early disaster warning system. In this exploratory empirical research, we aim to address the question: How does the government use Twitter to inform the public about disaster hazards and vulnerability? Case study and tweets content analysis are conducted on Indonesia's Twitter early tsunami warning system to answer the question in the context of the three earthquakes occurred off the west coast of Sumatra during the period of 2010-2012. Data are collected from e-government websites of agencies involved in disaster preparedness and response. This research concludes that the Twitter-based warning system demonstrated its value as a viable complement to Indonesia's InaTEWS - a comprehensive disaster information management system for governments - by informing the public and creating public value through its communication speed, reach and information quality. © 2012 IEEE.
+N1  - Cited By :6
+N1  - Export Date: 11 August 2016
+M3  - Conference Paper
+DB  - Scopus
+C7  - 6480088
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-84875525289&partnerID=40&md5=0c1fa6210cc569f54307442c1cc3eac5
+ER  - 
+
+TY  - JOUR
+TI  - Multi-disciplinary approaches to intelligently sharing large-volumes of real-time sensor data during natural disasters
+T2  - Data Science Journal
+VL  - 12
+SP  - WDS109
+EP  - WDS113
+PY  - 2013
+DO  - 10.2481/dsj.WDS-018
+AU  - Middleto, S.E.
+AU  - Sabeur, Z.A.
+AU  - Löwe, P.
+AU  - Hammitzsch, M.
+AU  - Tavakoli, S.
+AU  - Poslad, S.
+AD  - University of Southampton IT Innovation Centre, United Kingdom
+AD  - GFZ German Research Centre for Geosciences, Germany
+AD  - Queen Mary University of London, United Kingdom
+AB  - We describe our knowledge-based service architecture for multi-risk environmental decision-support, capable of handling geo-distributed heterogeneous real-time data sources. Data sources include tide gauges, buoys, seismic sensors, satellites, earthquake alerts, Web 2.0 feeds to crowd source 'unconventional' measurements, and simulations of Tsunami wava propagation. Our system of systems multi-bus architecture provides a scalable and high performance messaging backbone. We are overcoming semantic interoperability between heterogeneous datasets by using a self-describing 'plug-in' data source approach. As crises develop we can agilely steer the processing server and adapt data fusion and mining algorithm configurations in real-time.
+KW  - Data fusion
+KW  - Natural disaster
+KW  - OGC
+KW  - Semantics
+KW  - TRIDEC
+KW  - Tsunami
+KW  - W3C
+N1  - Cited By :4
+N1  - Export Date: 11 August 2016
+M3  - Article
+DB  - Scopus
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-84876177058&partnerID=40&md5=ceff422d74760eb722367f935167ab46
+ER  - 
+
+TY  - CONF
+TI  - Taiwan's national laboratories synergyof earth observation technologiesin disaster reduction application
+T2  - 34th Asian Conference on Remote Sensing 2013, ACRS 2013
+VL  - 4
+SP  - 3716
+EP  - 3722
+PY  - 2013
+AU  - Cheng, M.-C.
+AU  - Chang, G.-S.
+AU  - Cheng, J.
+AU  - Lin, F.-P.
+AU  - Chou, S.-C.
+AD  - National Space Organization, 9 Prosperity Rd, HsinChu, Taiwan
+AD  - NARLabs, NSPO, Taiwan
+AD  - NARLabs, National Center for High Performance Computing, Taiwan
+AB  - Natural disastershad become a global issue, earth observation data and interoperability is very crucial to better manage the issue. Data includes observation, analysis, and decisions. Taiwan's National Applied Research Laboratories (NARLabs) had been playing a major role developing related technologieswith the goal to more efficient disaster management. Established in 2003, NARLabs has combined elevenresearch institutes into an independent non-profit institute. One of the four research fields associated with disaster prediction and early warning systems has been in priority list, such as Formosat-2 remote sensingsatellite, Formosat-3/COSMIC (Constellation Observing System for Meteorology, Ionosphere and Climate), cloud computing, typhoon and flood research, ocean research, earthquake engineering, and disaster management technologies. NARLabs takes its advantage to synergize capabilities to support government's mission on disaster management as well as to involve the international activities, such as Open Geospatial Consortium (OGC) Architecture Implementation Pilot projects, and Sentinel Asia, a voluntary disaster response and management organization in Asia Pacific regions. In this paper, we will present the accomplishment of NARLabs' efforts to disaster management in Taiwan and contributions to the sustainable development of the world. Copyright © (2013) by the Asian Association on Remote Sensing.
+KW  - Formosat-2
+KW  - Formosat-3/COSMIC
+KW  - Geoss
+KW  - NARLabs
+KW  - OGC
+N1  - Export Date: 11 August 2016
+M3  - Conference Paper
+DB  - Scopus
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-84903456660&partnerID=40&md5=4ffde1a12233d2f4bd252e779781b499
+ER  - 
+
+TY  - CONF
+TI  - Sensor web and web processing standards for crisis management
+T2  - ISCRAM 2013 Conference Proceedings - 10th International Conference on Information Systems for Crisis Response and Management
+SP  - 376
+EP  - 380
+PY  - 2013
+AU  - Jirka, S.
+AU  - Nüst, D.
+AU  - Proß, B.
+AD  - 52 North GmbH, Germany
+AB  - This paper introduces the latest state of the interoperable Sensor Web and Web Processing standards specified by the Open Geospatial Consortium. Based on these components it becomes possible to share, integrate and analyse observation data across political and administrative borders as well as across multiple thematic domains. We present the 52°North open source implementations of the OGC SWE and WPS standards and introduce an outlook how this technology could be applied in the field of crisis management. Thus, this paper aims at providing a perspective how currently existing technology can be combined and applied to solve problems in emergency management rather than describing an already finished product. Special consideration will be given to the combination of Sensor Web and Web Processing technology which opens up new possibilities by having near real-time data flows that can be linked on-demand to different processing services.
+KW  - Interoperability
+KW  - OGC sensor web enablement
+KW  - OGC web processing service
+KW  - Sensor web
+N1  - Export Date: 11 August 2016
+M3  - Conference Paper
+DB  - Scopus
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-84905661631&partnerID=40&md5=92ec0a0bc97f4384f81cde34ef8f58d1
+ER  - 
+
+TY  - CONF
+TI  - An interoperable architecture for air pollution early warning system based on sensor web
+T2  - International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences - ISPRS Archives
+VL  - 40
+IS  - 1W3
+SP  - 459
+EP  - 462
+PY  - 2013
+AU  - Samadzadegan, F.
+AU  - Zahmatkesh, H.
+AU  - Saber, M.
+AU  - Khanlou, H.J.G.
+AD  - Dept. Of Surveying and Geomatics Eng., Engineering Faculty, University of Tehran, Tehran, Iran
+AD  - MAS Research and Development Company, Tehran, Iran
+AB  - Environmental monitoring systems deal with time-sensitive issues which require quick responses in emergency situations. Handling the sensor observations in near real-time and obtaining valuable information is challenging issues in these systems from a technical and scientific point of view. The ever-increasing population growth in urban areas has caused certain problems in developing countries, which has direct or indirect impact on human life. One of applicable solution for controlling and managing air quality by considering real time and update air quality information gathered by spatially distributed sensors in mega cities, using sensor web technology for developing monitoring and early warning systems. Urban air quality monitoring systems using functionalities of geospatial information system as a platform for analysing, processing, and visualization of data in combination with Sensor Web for supporting decision support systems in disaster management and emergency situations. This system uses Sensor Web Enablement (SWE) framework of the Open Geospatial Consortium (OGC), which offers a standard framework that allows the integration of sensors and sensor data into spatial data infrastructures. SWE framework introduces standards for services to access sensor data and discover events from sensor data streams as well as definition set of standards for the description of sensors and the encoding of measurements. The presented system provides capabilities to collect, transfer, share, process air quality sensor data and disseminate air quality status in real-time. It is possible to overcome interoperability challenges by using standard framework. In a routine scenario, air quality data measured by in-situ sensors are communicated to central station where data is analysed and processed. The extracted air quality status is processed for discovering emergency situations, and if necessary air quality reports are sent to the authorities. This research proposed an architecture to represent how integrate air quality sensor data stream into geospatial data infrastructure to present an interoperable air quality monitoring system for supporting disaster management systems by real time information. Developed system tested on Tehran air pollution sensors for calculating Air Quality Index (AQI) for CO pollutant and subsequently notifying registered users in emergency cases by sending warning E-mails. Air quality monitoring portal used to retrieving and visualize sensor observation through interoperable framework. This system provides capabilities to retrieve SOS observation using WPS in a cascaded service chaining pattern for monitoring trend of timely sensor observation.
+KW  - Air quality
+KW  - Monitoring system
+KW  - OGC
+KW  - Sensor web
+KW  - SWE
+KW  - WPS
+N1  - Cited By :2
+N1  - Export Date: 11 August 2016
+M3  - Conference Paper
+DB  - Scopus
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-84924331410&partnerID=40&md5=4bdf91824821ae2bfc37209f0aacc0a5
+ER  - 
+
+TY  - JOUR
+TI  - An on-demand approach to build reusable, fast-responding spatial data services
+T2  - IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing
+VL  - 5
+IS  - 6
+SP  - 1665
+EP  - 1677
+PY  - 2012
+DO  - 10.1109/JSTARS.2012.2205225
+AU  - Zeng, Y.
+AU  - Li, G.
+AU  - Guo, L.
+AU  - Huang, H.
+AD  - College of Information Science and Technology, Beijing Forestry University, Beijing 100083, China
+AD  - Data Technology Division, Centre for Earth Observation and Digital Earth, Chinese Academy of Sciences, Beijing 100094, China
+AD  - College of Forestry, Beijing Forestry University, Beijing 100083, China
+AB  - Many applications for global climate change research heavily rely on analyzing geospatial data collaboratively and always accompanying with complex computational algorithms. It is desirable to study a flexible and efficient approach for easy interoperation among heterogeneous datasets and computation models, thus providing quick responses for decision making. Early research on services-based mechanisms can ensure interoperability of geo-data resources and interoperability of geo-processing sources, but cannot ensure interoperability of both geo-data resources and geo-processing sources simultaneously due to their different characteristics on service deployment and management. An important issue is to find a way to keep diversity of data sources and maintain advantages of various geo-processing algorithms whereas data resources and processing sources can be chained together at a certain level of granularity. To address this need, we propose Data Service Entity Node (DSEN) to take the spatial data sources and geo-processing function as isomorphic service in a uniform manner based on service clustering method. We have applied our on-demand data service model to China Spatial Information Grid (SIG) test-bed and report a case study of flood monitoring application. The result shows our advantages and powerful capabilities by running two algorithms and process models for water extraction in an efficient way. The proposed on-demand approach can be used to build reusable spatial data service and respond quickly, and dynamically support different requirements of targeted applications. © 2008-2012 IEEE.
+KW  - Data interoperation
+KW  - fast response
+KW  - on-demand geo-processing
+KW  - spatial data service
+N1  - Export Date: 11 August 2016
+M3  - Article
+DB  - Scopus
+C7  - 6248712
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-84872057550&partnerID=40&md5=9d5965bfda04bc631d750e0cd12f0002
+ER  - 
+
+TY  - CONF
+TI  - An ontological representation for Tsunami early warning system
+T2  - IEEE-International Conference on Advances in Engineering, Science and Management, ICAESM-2012
+SP  - 93
+EP  - 98
+PY  - 2012
+AU  - Ramar, K.
+AU  - Mirnalinee, T.T.
+AD  - Department of Computer Science and Engineering, Anna University of Technology, Chennai, India
+AD  - Department of Computer Science and Engineering, SSN College of Engineering, Chennai, India
+AB  - Wireless sensors are used for monitoring environments such as climate change, water quality and disaster management. Disaster management is a critical and emergent operation now, especially tsunami warning and prediction system. The Indian National Centre for Ocean Information Services (INCOIS) runs a tsunami early warning system for mitigation of oceanogenic disasters. The early warning system comprises of systems like seismic stations, Bottom Pressure Recorder (BPR) and tide gauges. The critical task of the warning system is interpretation of the complex multidimensional data generated by various sensors and interoperability among the systems and handling of heterogeneous data. The issues are in developing a methodology to integrate heterogeneous data received from various components of tsunami early warning system and providing web based data service. To address these requirements importance is given to both syntactic and semantic nature of the data. The syntactic part is responsible for the interoperability of the sensor data. Interoperability is addressed by using Open Geospatial Consortium (OGC) Sensor Web Enablement (SWE) framework. Ontologies are used as a means for solving the information heterogeneity problems because of their capability to provide explicit meaning to the information. In this paper we propose a Service Oriented Architecture (SOA) model for the interoperability of sensor networks data and semantics of the data. The purpose of the paper is to provide more meaningful information for Tsunami early warning system using ontology and Jena rule representation. © 2012 Pillay Engineering College.
+KW  - Ontology
+KW  - Semantic Web
+KW  - Sensor Web Enablement (SWE)
+KW  - Service Oriented Architecture (SOA)
+KW  - Wireless Sensor Networks
+N1  - Cited By :3
+N1  - Export Date: 11 August 2016
+M3  - Conference Paper
+DB  - Scopus
+C7  - 6215579
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-84863886739&partnerID=40&md5=526644ee8f2c752e18d56ff91570bf12
+ER  - 
+
+TY  - CONF
+TI  - Interlinking national tsunami early warning systems towards ocean-wide system-of-systems networks
+T2  - ISCRAM 2012 Conference Proceedings - 9th International Conference on Information Systems for Crisis Response and Management
+PY  - 2012
+AU  - Lendholt, M.
+AU  - Hammitzsch, M.
+AU  - Esbrí, M.A.
+AD  - German Research Centre for Geosciences, Germany
+AD  - Atos Research and Innovation, Germany
+AB  - For the integration of national tsunami warning systems to large scale, ocean-wide warning infrastructures a specific protocol has been developed enabling system communication in a system-of-system environment. The proposed communication model incorporates requirements of UNESCO Intergovernmental Oceanic Commission tsunami programme to interlink national tsunami early warning systems. The model designed to be robust simple is based on existing interoperability standards. It uses the Common Alerting Protocol (CAP) for the exchange of official tsunami warning bulletins. Sensor measurements are communicated via markup languages of the Sensor Web Enablement (SWE) suite. Both communication products are embedded into an envelope carrying address information based on the Emergency Data Exchange Language Distribution Element (EDXL-DE). The research took place within the context of two European research projects. The reference implementation of the presented results was tested independently in deployments at two early warning centers. © 2012 ISCRAM.
+KW  - CAP
+KW  - Disaster management
+KW  - EDXL
+KW  - Tsunami early warning
+N1  - Export Date: 11 August 2016
+M3  - Conference Paper
+DB  - Scopus
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-84905591475&partnerID=40&md5=c0bbc258227e5ff9a494e6d1bdd28d02
+ER  - 
+
+TY  - CONF
+TI  - Complexity and usability of voice-enabled alerting and situational reporting decoupled systems
+T2  - ISCRAM 2012 Conference Proceedings - 9th International Conference on Information Systems for Crisis Response and Management
+PY  - 2012
+AU  - Waidyanatha, N.
+AU  - Wilfred, T.
+AU  - Perera, K.
+AU  - Silva, M.
+AU  - Burell, B.
+AD  - LIRNEasia, Sri Lanka
+AD  - Lanka Jathika Sarvodaya Shramadana Sangamaya, Sri Lanka
+AD  - Kubatana Trust of Zimbabwe, Zimbabwe
+AB  - Telephone calls are the predominant telecommunication mode in Sri Lanka. Leveraging voice-based applications for disaster communication would be acceptable and sustainable. The findings in this paper are from an experiment concerning interactive voice for connecting community-based emergency field operatives with their central coordination hub. Challenge was in interchanging the Freedom Fone (FF) Interactive Voice Response (IVR) generated, Sinhala and Tamil language, speech data with the text-based 'Sahana' disaster management system for analysis and decision support. Emergency Data Exchange Language (EDXL) interoperable content standard was adopted for mediation. Low quality voice data resulting in incomplete information was a barrier to automating transformations between text and speech. Replacing those processes with human procedure significantly degrades the reliability. Moreover, human interaction with decoupled software systems, to accomplish the sequence of tasks, points to instabilities. This paper discusses the complexities and usability shortcomings discovered through controlled-exercises in Sri Lanka. © 2012 ISCRAM.
+KW  - Alerting
+KW  - Disaster
+KW  - Interactive voice response
+KW  - Interoperability
+KW  - Situational reporting
+KW  - Sri Lanka
+N1  - Export Date: 11 August 2016
+M3  - Conference Paper
+DB  - Scopus
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-84905571453&partnerID=40&md5=14ebce7eb27ca740eb6dcb505f4df9b9
+ER  - 
+
+TY  - JOUR
+TI  - OntoFire: An ontology-based geo-portal for wildfires
+T2  - Natural Hazards and Earth System Science
+VL  - 11
+IS  - 12
+SP  - 3157
+EP  - 3170
+PY  - 2011
+DO  - 10.5194/nhess-11-3157-2011
+AU  - Kalabokidis, K.
+AU  - Athanasis, N.
+AU  - Vaitis, M.
+AD  - University of the Aegean, Department of Geography, 81100, Mytilene, Greece
+AB  - With the proliferation of the geospatial technologies on the Internet, the role of geo-portals (i.e. gateways to Spatial Data Infrastructures) in the area of wildfires management emerges. However, keyword-based techniques often frustrate users when looking for data of interest in geo-portal environments, while little attention has been paid to shift from the conventional keyword-based to navigation-based mechanisms. The presented OntoFire system is an ontology-based geo-portal about wildfires. Through the proposed navigation mechanisms, the relationships between the data can be discovered, which would otherwise not be possible when using conventional querying techniques alone. End users can use the browsing interface to find resources of interest by using the navigation mechanisms provided. Data providers can use the publishing interface to submit new metadata, modify metadata or removing metadata in/from the catalogue. The proposed approach can improve the discovery of valuable information that is necessary to set priorities for disaster mitigation and prevention strategies. OntoFire aspires to be a focal point of integration and management of a very large amount of information, contributing in this way to the dissemination of knowledge and to the preparedness of the operational stakeholders. © Author(s) 2011.
+N1  - Cited By :2
+N1  - Export Date: 11 August 2016
+M3  - Article
+DB  - Scopus
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-82955192553&partnerID=40&md5=703387af43970b47eec0f74dd54a6176
+ER  - 
+
+TY  - JOUR
+TI  - Performance evaluation of disaster monitoring systems
+T2  - Natural Hazards
+VL  - 58
+IS  - 3
+SP  - 1193
+EP  - 1208
+PY  - 2011
+DO  - 10.1007/s11069-011-9722-y
+AU  - Bayrak, T.
+AD  - Western New England College, Springfield, MA 01119, United States
+AB  - Understanding the performance of disaster monitoring systems is a key to understanding their success; therefore, various qualitative and quantitative measures and metrics can be applied in the characterization and analysis of such systems. Through evaluation studies, problems that impede a disaster monitoring system performance can be identified. The results can be used for system design, control, and capacity planning. Previous studies address technical performance analysis metrics for analyzing monitoring systems leaving out human and organizational dimensions of such systems. Thus, the primary objective of this study is to identify and describe a set of metrics that may be employed to evaluate such systems. This study may be valuable to researchers and practitioners involved in disaster and emergency response studies in planning the transportation of vital first-aid supplies and emergency personnel to disaster-affected areas and in improving chances of survival after a disaster. © 2011 Springer Science+Business Media B.V.
+KW  - Computer networks
+KW  - Disaster monitoring systems
+KW  - Natural disasters
+N1  - Cited By :2
+N1  - Export Date: 11 August 2016
+M3  - Article
+DB  - Scopus
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-79961028260&partnerID=40&md5=42360f0362d162737b19b1ef224a48e4
+ER  - 
+
+TY  - SER
+TI  - Knowledge-based service architecture for multi-risk environmental decision support applications
+T2  - IFIP Advances in Information and Communication Technology
+VL  - 359 AICT
+SP  - 101
+EP  - 109
+PY  - 2011
+DO  - 10.1007/978-3-642-22285-6_11
+AU  - Middleton, S.E.
+AU  - Sabeur, Z.A.
+AD  - IT Innovation Centre, University of Southampton, Gamma House, Enterprise Road, Southampton SO16 7NS, United Kingdom
+AB  - This paper describes our work to date on knowledge-based service architecture implementations for multi-risk environmental decision-support. The work described spans two research projects, SANY and TRIDEC, and covers application domains where very large, high report frequency real-time information sources must be processed in challenging timescales to support multi-risk decision support in evolving crises. We describe how OGC and W3C standards can be used to support semantic interoperability, and how context-ware information filtering can reduce the amount of processed data to manageable levels. We separate our data mining and data fusion processing into distinct pipelines, each supporting JDL inspired semantic levels of data processing. We conclude by outlining the challenges ahead and our vision for how knowledge-based service architectures can address these challenges. © 2011 IFIP International Federation for Information Processing.
+KW  - crisis management
+KW  - data fusion
+KW  - environmental risk management
+KW  - OGC
+KW  - semantics
+KW  - SOA
+KW  - SWE
+N1  - Cited By :1
+N1  - Export Date: 11 August 2016
+M3  - Conference Paper
+DB  - Scopus
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-79960824216&partnerID=40&md5=d6cb355959719c6a6786e1ee4187076d
+ER  - 
+
+TY  - JOUR
+TI  - Ithaca worldwide flood alert system: The web framework
+T2  - Applied Geomatics
+VL  - 3
+IS  - 2
+SP  - 83
+EP  - 89
+PY  - 2011
+DO  - 10.1007/s12518-010-0041-x
+AU  - Agosto, E.
+AU  - Dalmasso, S.
+AU  - Pasquali, P.
+AU  - Terzo, O.
+AD  - ITHACA-Information Technology for Humanitarian Assistance, Cooperation and Action, Via P.C. Boggio 61, 10138 Turin, Italy
+AD  - ISMB-Istituto Superiore Mario Boella, Via P.C. Boggio 61, 10138 Turin, Italy
+AB  - Information Technology for Humanitarian Assistance, Cooperation, and Action (ITHACA) is developing a worldwide early warning system for flood events (Albanese et al. 2008). The system collects rainfall data from NASA Tropical Rainfall Monitoring Mission website every 3 h, processes them, and compares them to historical data series to detect an alert level for each basin. Watershed layer of HYDRO1k, developed at the US Geological Survey's Centre for Earth Resources Observation and Sciences, is constituted by a territorial subdivision at different levels, increasing details from levels 1 to 6; watershed at maximum detail (level-6 basin) are used for the system. A grid-computing approach is adopted to face the heavy computational load while a web-fruition framework is planned to give the widest access to the output the system produces. The user interface shows ongoing events on a map, where it is also possible to add other feeds (i.e., by Global Disaster Alert and Coordination System). The user can zoom to the alerted countries by an interactive list or have additional information on the event and possibly an estimate of the affected population shown. The framework is based on pure Free and Open Source Software (FOSS) products and common standards, according to ITHACA internal directives and following United Nations Geographic Information Working Group directives that encourage interoperability and FOSS tools adoption. The framework is a development of ITHACA infrastructure for web GIS applications; it is based on Model Controller View (MCV) architectural pattern that makes it possible to isolate the logic of the application from the interface. In this way, a change in one of the two parts does not affect the other making maintenance easier in the long term. From this point of view a controller collects, the model manipulates application data, and the view presents results to the user. Here, a Python-based MCV framework named Django is adopted; interfaces are built using JavaScript classes which some FOSS projects make available. Some OpenLayers classes are modified and combined with Ext and GeoExt libraries to increase the interaction the user can have with the interface. Data are symbolized using common Open Geospatial Consortium Styled Layer Descriptor standard. Caching mechanism for Web Mapping Service base layers is adopted. © Società Italiana di Fotogrammetria e Topografia (SIFET) 2011.
+KW  - Early monitoring
+KW  - Flood
+KW  - FOSS
+KW  - Web
+N1  - Cited By :2
+N1  - Export Date: 11 August 2016
+M3  - Article
+DB  - Scopus
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-84867342545&partnerID=40&md5=68a8c0c7041aab9550e226c322e30f8d
+ER  - 
+
+TY  - CONF
+TI  - Generic information logistics for early warning systems
+T2  - 8th International Conference on Information Systems for Crisis Response and Management: From Early-Warning Systems to Preparedness and Training, ISCRAM 2011
+PY  - 2011
+AU  - Lendholt, M.
+AU  - Hammitzsch, M.
+AD  - German Research Centre for Geosciences, Germany
+AB  - The delivery of user-tailored warning messages for heterogeneous user groups is a challenge rarely covered by hazard monitoring and early warning systems. While attention is mostly focused on sensor measurements and disaster prediction, warning message dissemination is often based on technical terminology and is not appropriate for the majority of interested user groups. This article describes the concepts of generic information logistics developed for the distant early warning system (DEWS). It is designed to not be limited to specific hazard types, languages or other deployment specifics. Instead, it enables the generation of user-tailored warning messages that account for specific needs and it provides several filter mechanisms to avoid unintended message flooding in emergency situations. Moreover, the importance of spatial references in messages is highlighted and accounted for in both automatic message processing and message reception by humans. Warning messages are based on the common alerting protocol (CAP) to allow interoperability with other early warning systems.
+KW  - CAP
+KW  - Disaster management
+KW  - Early warning
+KW  - EDXL
+KW  - Information logistics
+KW  - Tsunami
+N1  - Export Date: 11 August 2016
+M3  - Conference Paper
+DB  - Scopus
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-84905657938&partnerID=40&md5=9049bca0ded1bcfd23423e08cb4afea9
+ER  - 
+
+TY  - CONF
+TI  - Designing a harmonized geo-data model for Disaster Management
+T2  - 8th International Conference on Information Systems for Crisis Response and Management: From Early-Warning Systems to Preparedness and Training, ISCRAM 2011
+PY  - 2011
+AU  - Aydinoglu, A.C.
+AU  - Demir, E.
+AU  - Ates, S.
+AD  - Istanbul Technical University, Turkey
+AB  - There are problems for managing and sharing geo-data effectively in Turkey. The key to resolving these problems is to develop a harmonized geo-data model. General features of this model are based on ISO/TC211 standards, INSPIRE Data Specifications, and expectations of Turkey National GIS actions. The generic conceptual model components were defined to harmonize geo-data and to produce data specifications. In order to enable semantic interoperability, application schemas were designed for data themes such as administrative unit, address, cadastre/building, hydrographic, topography, geodesy, transportation, and land cover/use. The model, as base and the domain geo-data model, is a starting point to create sector models in different thematic areas. Disaster Management Geo-data Model model was developed as an extension of base geo-data model to manage geo-data collaborate on disaster management activities. This model includes existing geo-data special for disaster management activities and dynamic data collecting during disaster.
+KW  - Geo-data model
+KW  - GIS
+KW  - Standards
+N1  - Export Date: 11 August 2016
+M3  - Conference Paper
+DB  - Scopus
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-84905661566&partnerID=40&md5=57cc73e718e1df81c04a628349b5bcff
+ER  - 
+
+TY  - CONF
+TI  - Using Geo-Information Technologies to increase the effectiveness of fire brigade services in Turkey
+T2  - 8th International Conference on Information Systems for Crisis Response and Management: From Early-Warning Systems to Preparedness and Training, ISCRAM 2011
+PY  - 2011
+AU  - Demir, E.
+AU  - Yomralioǧlu, T.
+AU  - Aydinoǧlu, A.Ç.
+AD  - Istanbul Technical University, Turkey
+AB  - The coordinated response of fire has become a priority need for effective participation of actors. Within this scope, Geo-Information Technologies (GIT) will help to reduce of catastrophic results of disaster and protect lives and resources, with dynamic use of geo-data in fire disaster management. Interoperable geo-data is urgent need for fire disaster management. With assigned tasks, fire brigade is the most effective actor for the fire disaster management at different phases. In this study, actors that could act in a GIT based fire disaster management are defined. Activities in management phases of the possible fire disaster and geo-data needs to manage these activities were determined. According to this background, case activities such as producing fire risk map, optimizing locations of response teams, and the like were developed by using GIT. This approach can be a preliminary work to trigger effective and collaborate use of geo-data in fire brigade services.
+KW  - Disaster management
+KW  - Fire brigade
+KW  - Geo-information technology
+N1  - Export Date: 11 August 2016
+M3  - Conference Paper
+DB  - Scopus
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-84905643798&partnerID=40&md5=bd6f727c5377cd3b12685ff3cd62c42b
+ER  - 
+
+TY  - CONF
+TI  - Light-weight model-based realization of a B2B protocol and a SOA integration engine
+T2  - 8th International Conference on Information Systems for Crisis Response and Management: From Early-Warning Systems to Preparedness and Training, ISCRAM 2011
+PY  - 2011
+AU  - Meijler, T.D.
+AU  - Nietzold, F.
+AD  - SAP Research Dresden, Germany
+AB  - In emergency management, communication between the emergency management team and the outer world is essential. When using an emergency management system, such communication is often IT-based. To disburden the emergency management team, structured "B2B" messages may be used that correspond to the (foreseen) lifecycle of relevant entities in the emergency, such as threats and measures. The paper introduces an approach for the realization of a B2B messaging protocol and the corresponding integration engine, which maps message content to service calls, in the context of an emergency management system. The approach is light-weight and model-based, as protocols and integration engine are based on merely modeling the states and state transitions of objects in the system representing essential entities in the emergency. As the model is described in non-technical terms, this can be done by a non-IT expert.
+KW  - B2B
+KW  - Communication
+KW  - Interoperability
+KW  - Messages
+KW  - Ontologies
+KW  - Service-oriented architectures
+N1  - Export Date: 11 August 2016
+M3  - Conference Paper
+DB  - Scopus
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-84905659661&partnerID=40&md5=140ba228167148b8cfd9b9537efd889b
+ER  - 
+
+TY  - CONF
+TI  - Activity Theory as a methodological and analytical framework for information practices in Emergency Management
+T2  - 8th International Conference on Information Systems for Crisis Response and Management: From Early-Warning Systems to Preparedness and Training, ISCRAM 2011
+PY  - 2011
+AU  - Mishra, J.L.
+AU  - Allen, D.K.
+AU  - Pearman, A.D.
+AD  - University of Leeds, United Kingdom
+AB  - Emergency situations are chaotic in nature. It is however, necessary to understand the context in which Emergency Responders work such that information practice issues can be highlighted and addressed by the system designers. In this paper, Activity Theory is proposed as a methodological and analytical framework to study information practices in the context of Emergency Management. Activity Theory aids in achieving a holistic approach to understanding the work activities context unlike some other analytical methodologies, as it focuses on use of artifacts for the interaction of humans with their environment. In this paper, an activity system model is used to investigate information practice issues of response phase of the emergency services in the UK. Using Activity Theory as an analytical framework, several tensions and contradictions emerged which keep the system unstable but which are also a source of innovation. It is also argued that Activity Theory can usefully be applied to the analysis of information practices over short period of time.
+KW  - Activity theory
+KW  - Crisis management
+KW  - Emergency management
+KW  - Information systems
+KW  - Qualitative research
+N1  - Export Date: 11 August 2016
+M3  - Conference Paper
+DB  - Scopus
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-84905659295&partnerID=40&md5=7cae4ec5f38a51acfdf291bd0f82b7c6
+ER  - 
+
+TY  - CONF
+TI  - Risk analysis for Greene County and Wright Patterson Air Force Base, Ohio: Simulation of riverine flooding using HAZUS-MH
+T2  - 8th International Conference on Information Systems for Crisis Response and Management: From Early-Warning Systems to Preparedness and Training, ISCRAM 2011
+PY  - 2011
+AU  - Venkateswaran, A.
+AU  - Simon-Agolory, K.
+AU  - Watkins, K.Z.
+AD  - Wilberforce University, United States
+AD  - Solnect Consulting Group, United States
+AB  - Greene County in Dayton, OH houses Wright Patterson Air Force Base (WPAFB), whose estimated 2009 economic impact within its Metropolitan Statistical Area (MSA) is $5.17 million. Despite its military/strategic importance as the largest base in the U.S. Air Force, literature search did not uncover a published comprehensive risk analysis for WPAFB, or even Greene County, across the entire spectrum of hazards from natural to technological to man-made (including terrorism). This paper presents a summary report on risk determination and economic impact data for Greene County and WPAFB (within Greene County) in the context of riverine flooding, using FEMA's HAZUS-MH tool. It is hoped that the results will further the regional compilation of data and thus prove of use to the local disaster management community while generally growing the overall body of work in risk analysis. Future work aims to expand regional risk determination to other natural disasters and terrorism scenarios.
+KW  - Greene county
+KW  - OH
+KW  - Risk analysis
+KW  - Riverine flooding
+KW  - Wright Patterson Air Force Base
+N1  - Export Date: 11 August 2016
+M3  - Conference Paper
+DB  - Scopus
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-84905659284&partnerID=40&md5=e299a470b1f4bdc74cf8a9bb550e0f64
+ER  - 
+
+TY  - CONF
+TI  - Addressing interoperability through the semantic of Information Highway in managing responses in Humanitarian Crises
+T2  - 8th International Conference on Information Systems for Crisis Response and Management: From Early-Warning Systems to Preparedness and Training, ISCRAM 2011
+PY  - 2011
+AU  - Shamoug, A.
+AU  - Juric, R.
+AD  - School of Electronics and Computer Science, University of Westminster, United Kingdom
+AB  - We propose an Information Highway (IH) which addresses interoperability in software systems supporting Humanitarian Crises (HC) and consequently enables efficient decision making at any level: operational, organizational and donor levels. We model our IH by (a) manipulating the semantics stored in knowledge of data repositories, which are interwoven in everyday activities of managing responses to HC and (b) understanding the meaning and the purpose of requests for data retrievals issued in such environments.
+KW  - Humanitarian crises
+KW  - Interoperability
+KW  - Semantics
+KW  - Taxonomy
+N1  - Export Date: 11 August 2016
+M3  - Conference Paper
+DB  - Scopus
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-84905643386&partnerID=40&md5=91811511c578cb366acca5e3fd79283d
+ER  - 
+
+TY  - CONF
+TI  - Information requirements for context-aware multi-agency real-time coordination during crisis response
+T2  - 8th International Conference on Information Systems for Crisis Response and Management: From Early-Warning Systems to Preparedness and Training, ISCRAM 2011
+PY  - 2011
+AU  - Way, S.
+AD  - McMaster University, Canada
+AB  - Most information systems (IS) research into emergency management (EM) consists of case studies of prior disasters, social behavior research, and planning or preparedness research. This study fills a gap in EM and IS research as it aims to better understand the nature of coordination during crisis response; investigate the functions and capabilities of existing coordination systems; and identify the desired functions to manage multi-agency coordination response. Grounded theory is the methodology adopted for this study. Firsthand interview and observational data will be collected from agency command centers, ride-outs with police, fire, and emergency medical services (EMS) agencies, and from multi-agency training exercises. This study is expected to make a theoretical contribution to crisis response system design as it will develop a theory to better understand the information requirements for context-aware multi-agency real-time coordination responses to crises.
+KW  - Coordination
+KW  - Crisis response
+KW  - Grounded theory
+KW  - Multi-agency
+N1  - Export Date: 11 August 2016
+M3  - Conference Paper
+DB  - Scopus
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-84905643378&partnerID=40&md5=863defd41cfa3ee93dbc54356b6f3481
+ER  - 
+
+TY  - CONF
+TI  - Key performance indicator based calculations as a decision support for the tactical level
+T2  - 8th International Conference on Information Systems for Crisis Response and Management: From Early-Warning Systems to Preparedness and Training, ISCRAM 2011
+PY  - 2011
+AU  - Moellmann, S.
+AU  - Braun, D.
+AU  - Engelmann, H.
+AU  - Raskob, W.
+AD  - Karlsruhe Institute of Technology, Germany
+AB  - For the planning of relief operations the duration and the necessary resources are key factors for a successful completion. Those factors, however, are difficult to estimate due to the large number of influencing factors in a complex crisis situation. This paper presents a software module that supports the planning by calculating the duration and the required resources for relief measures based on key performance indicators (KPI). It is part of a project called SECURITY2People aiming to develop the basics for an integrated disaster management system. The module consists of an easy to use tool to calculate the timing of a relief measure when applied to a given disaster site. In addition it contains a detailed view to display and edit the model of the selected measure which is depicted as a Gantt chart and forms the basis of the calculation. Finally, the paper describes how this module can benefit from interoperability with other modules of this project and existing systems and services.
+KW  - Interoperability
+KW  - Key performance indicators
+KW  - REST
+KW  - SOA
+KW  - Tactical level
+KW  - TSO
+N1  - Export Date: 11 August 2016
+M3  - Conference Paper
+DB  - Scopus
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-84905665926&partnerID=40&md5=bed0e182e83b7f6bd4b4f777e80cef85
+ER  - 
+
+TY  - CHAP
+TI  - Current state and solutions for future challenges in early warning systems and alerting technologies
+T2  - Advanced ICTs for Disaster Management and Threat Detection: Collaborative and Distributed Frameworks
+SP  - 108
+EP  - 130
+PY  - 2010
+DO  - 10.4018/978-1-61520-987-3.ch008
+AU  - Meissen, U.
+AU  - Voisard, A.
+AD  - Fraunhofer Institute for Software and Systems Engineering (ISST), Germany
+AB  - The deployment of Early Warning Systems (EWS) and Alerting Technologies (AT) is one of the best measures for improved disaster prevention and mitigation. With the evolution of Information and Communication Technologies (ICT), we face new opportunities as well as new challenges for improving classical warning processes. This chapter concentrates on the main aspects of existing early warning systems and alerting technologies. Beginning with the definition and classifications in this field, we describe general approaches, representative systems, and interoperability aspects of EWS. Furthermore, we introduce a list of criteria for evaluating and comparing existing systems. It is worth noting that the deployment of an operational EWS is a complex challenge and remains a young field of research. This is due to many reasons, ranging from the political to the technical. The most critical issues regarding efficient alerting are described in this chapter, along with areas for future research. © 2010, IGI Global.
+N1  - Cited By :1
+N1  - Export Date: 11 August 2016
+M3  - Book Chapter
+DB  - Scopus
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-84900226586&partnerID=40&md5=57b30d01a51cb86d5feccedafa7135e0
+ER  - 
+
+TY  - CONF
+TI  - Sahana alerting software for real-time biosurveillance in India and Sri Lanka
+T2  - Proceedings of ICCIA 2010 - 2010 International Conference on Computer and Information Application
+SP  - 370
+EP  - 373
+PY  - 2010
+DO  - 10.1109/ICCIA.2010.6141613
+AU  - Waidyanatha, N.
+AU  - Gow, G.
+AU  - Sampath, C.
+AU  - Ganesan, M.
+AU  - Janakiraman, N.
+AU  - Careem, M.
+AU  - Pradeeper, D.
+AU  - Kaluarachchi, M.
+AD  - LIRNEasia, 12 Balcombe Place, Colombo 08, Sri Lanka
+AD  - Facuity of Extension, University of Alberta, Edmonton, AB, Canada
+AD  - IITM's Rural Technology and Business Incubator, IITM Research Park, Chennai, India
+AD  - Respere Lanka (Private) Limited, 9 De Fonseka Place, Colombo 04, Sri Lanka
+AB  - "Evaluating a real-time biosurveillance program" (RTBP) is a research project that field tested the Common Alerting Protocol (CAP) content standard for exchanging public health risk information. The end-to-end RTBP Information Communication Technology (ICT) system is one that digitized patient clinical data using mobile phones, detected unusual events in the dataset with spatial and spatio-temporal statistical analysis tools, and disseminated detected adverse events to health workers and health officials in targeted geographic locations. The RTBP aiming to combat disease outbreaks before reaching epidemic states, pilot tested a single input multiple output web driven alerting application for the simultaneous dissemination of SMS, Email, and Web based CAP messages. This software is integrated in to the Sahana Disaster Management bundle of free and open source software. The field testing was carried out with health departments and healthcare workers in India and Sri Lanka. The paper discusses the design and utility of the software as well as the research finding with respect to the usability of the software and the comprehensibility of the CAP message by health workers. © 2010 IEEE.
+KW  - biosurveillance
+KW  - common alerting protocol
+KW  - electronic health
+KW  - epidemiology
+KW  - India
+KW  - interoperability
+KW  - mobile phones
+KW  - Sri Lanka
+KW  - standards
+N1  - Export Date: 11 August 2016
+M3  - Conference Paper
+DB  - Scopus
+C7  - 6141613
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-84857131932&partnerID=40&md5=25d7ce1f3f74812cc9ef888a92f94cc1
+ER  - 
+
+TY  - JOUR
+TI  - An integration platform for heterogeneous sensor systems in GITEWS - Tsunami Service Bus
+T2  - Natural Hazards and Earth System Science
+VL  - 10
+IS  - 6
+SP  - 1239
+EP  - 1252
+PY  - 2010
+DO  - 10.5194/nhess-10-1239-2010
+AU  - Fleischer, J.
+AU  - Häner, R.
+AU  - Herrnkind, S.
+AU  - Kloth, A.
+AU  - Kriegel, U.
+AU  - Schwarting, H.
+AU  - Wächter, J.
+AD  - Deutsches GeoForschungsZentrum GFZ, Center for GeoInformation Technology (CeGIT), 14473 Potsdam, Germany
+AD  - SpaceTech GmbH (STI), Seelbachstraße 13, 88090 Immenstaad, Germany
+AD  - Fraunhofer Institute for Software and Systems Engineering ISST, Berlin Branch, Steinplatz 2, 10623 Berlin, Germany
+AB  - The German Indonesian Tsunami Early Warning System (GITEWS) is built upon a complex sensor data infrastructure. To best fulfill the demand for a long living system, the underlying software and hardware architecture of GITEWS must be prepared for future modifications both of single sensors and entire sensors systems. The foundation for a flexible integration and for stable interfaces is a result of following the paradigm of a Service Oriented Architecture (SOA). The Tsunami Service Bus (TSB) - our integration platform in GITEWS - realizes this SOA approach by implementing the Sensor Web Enablement (SWE) standards and services. This paper focuses on architectural and implementation aspects of the TSB. Initially, the general architectural approach in GITEWS by SOA and SWE is presented. Based on this conception, the concrete system architecture of GITEWS is introduced. The sensor integration platform TSB is then discussed in detail, following by its primary responsibilities and components. Special emphasis is laid on architectural transparency, comprehensible design decisions, and references to the applied technology. © Author(s) 2010.
+N1  - Cited By :19
+N1  - Export Date: 11 August 2016
+M3  - Article
+DB  - Scopus
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-77953845132&partnerID=40&md5=c81d3c21be2fe2a6bcd99990ee27c160
+ER  - 
+
+TY  - JOUR
+TI  - Using sensor web protocols for environmental data acquisition and management
+T2  - Ecological Informatics
+VL  - 5
+IS  - 1
+SP  - 32
+EP  - 41
+PY  - 2010
+DO  - 10.1016/j.ecoinf.2009.08.009
+AU  - Conover, H.
+AU  - Berthiau, G.
+AU  - Botts, M.
+AU  - Goodman, H.M.
+AU  - Li, X.
+AU  - Lu, Y.
+AU  - Maskey, M.
+AU  - Regner, K.
+AU  - Zavodsky, B.
+AD  - University of Alabama in Huntsville, United States
+AD  - National Aeronautics and Space Administration, Marshall Space Flight Center, United States
+AB  - Standard interfaces for data and information access facilitate data management and usability by minimizing the effort required to acquire, catalog and integrate data from a variety of sources. The authors have prototyped several data management and analysis applications using Sensor Web Enablement Services, a suite of service protocols being developed by the Open Geospatial Consortium specifically for handling sensor data in near-real time. This paper provides a brief overview of some of the service protocols and describes how they are used in various sensor web projects involving near-real-time management of sensor data. © 2009 Elsevier B.V.
+KW  - Geospatial data
+KW  - Near-real time
+KW  - Sensor web
+KW  - Standards
+N1  - Cited By :20
+N1  - Export Date: 11 August 2016
+M3  - Article
+DB  - Scopus
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-76149116173&partnerID=40&md5=b0b66f5db073d0a4efb5778411405b6d
+ER  - 
+
+TY  - CONF
+TI  - The Decision Support System for improved Tsunami Early Warning in Indonesia: Approach and implementation
+T2  - Proceedings, 33rd International Symposium on Remote Sensing of Environment, ISRSE 2009
+SP  - 500
+EP  - 503
+PY  - 2009
+AU  - Riedlinger, T.
+AU  - Steinmetz, T.
+AU  - Raape, U.
+AU  - Tessmann, S.
+AU  - Wnuk, M.
+AU  - Strobl, C.
+AU  - Mikusch, E.
+AU  - Dech, S.
+AD  - German Remote Sensing Data Center (DFD), German Aerospace Center (DLR), Wessling, Germany
+AB  - As part of the German contribution to the Indonesian Tsunami Early Warning System InaTEWS, an innovative Decision Support System (DSS) has been developed in order to support the tsunami early warning process in a unique way. The paper describes the modular and open environment in which the DSS operates in, its main tasks and components, the Graphical User Interface (GUI) and the focus on standardization and interoperability which led the design and development of the DSS.
+KW  - Decision support
+KW  - Information fusion
+KW  - Tsunami early warning
+N1  - Export Date: 11 August 2016
+M3  - Conference Paper
+DB  - Scopus
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-84879927725&partnerID=40&md5=9058fc58bb84aca1ef2821bc265bd53b
+ER  - 
+
+TY  - CONF
+TI  - Emergency communication and system design: The case of Indian ocean tsunami
+T2  - 2009 International Conference on Information and Communication Technologies and Development, ICTD 2009 - Proceedings
+SP  - 300
+EP  - 306
+PY  - 2009
+DO  - 10.1109/ICTD.2009.5426699
+AU  - Chen, R.
+AU  - Coles, J.
+AU  - Lee, J.
+AU  - Rao, H.R.
+AD  - Medaille College, NY 14216, United States
+AD  - State University of New York, Buffalo, NY 14260, United States
+AD  - Oklahoma State University, OK 74106, United States
+AB  - On December 26th, 2004, the largest natural disaster in recent recorded history took the lives of over 225,000 people from over 40 different nations and displaced millions more . In an increasingly global environment, these disa sters are no longer isolated phenomena and must be responded to with a global per spective. The number of casualties from Indian Ocean Tsunami is a testament to the failure of humans in mitigating large scale emergency incidents and it is the consequence of ineffective information sharing and communication among key stakeholders. Using Activity Theory as the theoretical lens, we explore the communication phenomena in emergency response and we identify the major challenge facing communication practices. The paper further explores the design, implementation, and management of advanced information technologies to address the communication challenges.
+KW  - Communication
+KW  - Emergency services
+KW  - Globe
+KW  - Information technology
+N1  - Cited By :2
+N1  - Export Date: 11 August 2016
+M3  - Conference Paper
+DB  - Scopus
+C7  - 5426699
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-77951597536&partnerID=40&md5=5ac8a55c22c1ddf02623aec5afc58d05
+ER  - 
+
+TY  - CHAP
+TI  - Unified data access/query over integrated data-views for decision making in geographic information systems
+T2  - Grid Technology for Maximizing Collaborative Decision Management and Support: Advancing Effective Virtual Organizations
+SP  - 276
+EP  - 298
+PY  - 2009
+DO  - 10.4018/978-1-60566-364-7.ch014
+AU  - Sayar, A.
+AU  - Fox, G.C.
+AU  - Pierce, M.E.
+AD  - Computer Science Department, Indiana University, United States
+AD  - Department of Informatics, Indiana University, United States
+AD  - Community Grids Laboratory, Indiana University, United States
+AB  - Geographic information is critical for building disaster planning, crisis management, and early-warning systems. Decision making in geographic information systems (GIS) increasingly relies on analyses of spatial data in map-based formats. Maps are complex structures composed of layers created from distributed heterogeneous data belonging to the separate organizations. This chapter presents a distributed service architecture for managing the production of knowledge from distributed collections of observations and simulation data through integrated data-views. Integrated views are defined by a federation service ("federator") located on top of the standard service components. Common GIS standards enable the construction of this system. However, compliance requirements for interoperability, such as XML-encoded data and domain specific data characteristics, have costs and performance overhead. The authors investigate issues of combining standard compliance with performance. Although their framework is designed for GIS, they extend the principles and requirements to general science domains and discuss how these may be applied. © 2009, IGI Global.
+N1  - Export Date: 11 August 2016
+M3  - Book Chapter
+DB  - Scopus
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-84900279402&partnerID=40&md5=f567c9121dd0869dcf4fda4720b7cea9
+ER  - 
+
+TY  - JOUR
+TI  - Differences in European influenza pandemic preparedness plans, how important are they and what are the underlying reasons? 
+ST  - Wie groß sind die Differenzen zwischen den europäischen Pandemieplänen, sind sie relevant und woher stammen sie?
+T2  - Bundesgesundheitsblatt - Gesundheitsforschung - Gesundheitsschutz
+VL  - 52
+IS  - 2
+SP  - 193
+EP  - 202
+PY  - 2009
+DO  - 10.1007/s00103-009-0764-1
+AU  - Haas, W.
+AU  - Straetemans, M.
+AU  - Pfaff, G.
+AU  - Nicoll, A.
+AD  - Robert Koch-Institut, Berlin, Germany
+AD  - Regierungspräsidium Stuttgart, Berlin, Germany
+AD  - European Centre for Disease Prevention and Control, Stockholm, Sweden
+AD  - Robert Koch-Institut, Nordufer 20, 13353, Berlin, Germany
+AB  - The coordination of influenza pandemic preparedness planning within Europe is especially important for Germany with 10 out of 16 Länder (regions) bordering neighbouring countries. The language barrier presents only one of the challenges to overcome. Creating a European early warning system by linking national surveillance structures and the development of a communication network are important initial achievements. Several instruments have been designed and the European Centre for Disease Prevention and Control has already played a major role in the coordination of this process. It has also led the assessment of preparedness and planning by Member States. The speed of the European Member States in preparing for and the foci they have chosen when dealing with an influenza outbreak are heterogeneous. The simultaneous analysis presented here from European, national and regional points of view aims to identify both opportunities and risks of this diversity in Europe for coping with a new pandemic. Regional and local initiatives for cross-border measures and crisis management will play a central role in achieving successful influenza pandemic preparedness in Europe. © 2009 Springer Medizin Verlag.
+KW  - Crisis management
+KW  - Cross-border interoperability
+KW  - Influenza
+KW  - Pandemic preparedness
+N1  - Export Date: 11 August 2016
+M3  - Article
+DB  - Scopus
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-62949246750&partnerID=40&md5=3d75358f62dda9be5ea328d52ddb1753
+ER  - 
+
+TY  - CONF
+TI  - Space technology synergies for supporting emergency management
+T2  - SPACE APPLI 2008 - Space Applications Days
+PY  - 2008
+AU  - Guarino, G.
+AU  - Graglia, G.
+AD  - Thales Alenia Space Italia, Rome, Italy
+AB  - Natural hazards become natural disasters as volcanic eruption, earthquake, landslide, tsunami and so on when they affect people and the structures that they live in, and/or disrupt delicate ecosystems. Natural disasters weaken the societal infrastructure and cost billions of Euros each year in economic losses. Proper evaluation of the natural hazards and their possible effects on the population and the environment is critical for minimizing the number of casualties, reduce economical and other losses and activate recovery processes. Nowadays modern technologies and surveying techniques could provide a valuable and efficient tool, useful to prevent and mitigate calamitous events, natural disasters and dangerous situations. The architecture and the logical scheme for such kind of applicative solutions, outlines that the main goal to pursue is represented by the integration of different technologies supported by a rational use of the communication infrastructures by robust software management and processing tools. In this context space technology is demonstrating to be one of the key element for the emergency management in relation to the fact that the disasters have often a large-scale and those most affected by disasters are often the poor and socially disadvantaged in developing country where the lack of infrastructure (e.g. communication) causes an increasing loss of lives. This abstract aims at emphasizing how space-based technology systems can support several aspects of the emergency management in crisis scenarios underlining that the primary need is a synergic approach involving satellite communication, satellite navigation (GPS/EGNOS/Galileo), earth observation systems (e.g. GMES), meteorological satellites, national space based systems, etc. with the need of extending this synergy to other technological areas such as the information technology to constitute a world wide monitoring and alerting system. The development of the new European Global Navigation Satellite System Galileo, its interoperability with the Global Positioning System, and the use of the European Geostationary Navigation Overlay System (EGNOS), will contribute substantially to the quantity and quality of the satellite measurements thereby improving for example the quality of the deformation monitoring process. Moreover the possibility to broadcast messages by means of SBAS systems (EGNOS for Europe) is of considerable interest for the organization of a global alerting system promoting Galileo and the SBAS as candidate for a rapid implementation of a zone-related early-warning system. The main research lines to be explored are represented by data fusion from the earth observation systems and the global navigation satellite systems data, due to their complementary nature and in relation to their rapid evolution (GMES, Galileo and EGNOS development). In particular GNSS techniques and DIFferential Synthetic Aperture Radar Interferometry (DIFSAR) shows to be complementary both in space and in time domains. For example integrating GNSS sensor networks with DIFSAR images represents a viable approach for filtering out atmospheric and/or orbital artifacts. Not only, using a surface short-term deformation model, monitored by DIFSAR at repeat times, it is possible to generate innovative algorithms for global spatial interpolation of GNSS discrete data at continuous times. Another important aspect is represented by the communications that can be for such kind of application the bottleneck for different factors: unavailability of terrestrial signal, temporary unavailability of terrestrial infrastructure and so on. For this reason a redundant satellite channel is essential to assure a reliable communication system all over the world by means of different satellite communication system as IRIDIUM; GLOBALSTAR, etc.. Therefore it is clear how the satellite-based technology can influence and enhance the effectiveness and efficiency in each of the emergency lifecycle phases: prevention, preparation, response and recovery. Thales Alenia Space Italia, with the Applications Development Unit and other related department (Earth Observation, Telecommunication, etc.) is directly involved in the study of end-to-end solutions aimed to fulfill the needs of problems related to the Emergency Management focusing the interest and objectives of ongoing projects and research and development activities in a wider and international context.
+N1  - Export Date: 11 August 2016
+M3  - Conference Paper
+DB  - Scopus
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-84924129174&partnerID=40&md5=52baccb3149bab0c6cbcff426d032709
+ER  - 
+
+TY  - CONF
+TI  - Defining critical success factors for National Emergency Management Model and supporting the model with information systems
+T2  - Proceedings of ISCRAM 2008 - 5th International Conference on Information Systems for Crisis Response and Management
+SP  - 376
+EP  - 383
+PY  - 2008
+AU  - Ozceylan, D.
+AU  - Coskun, E.
+AD  - Sakarya University, Distance Learning Center, Turkey
+AD  - Sakarya University, Business School, Turkey
+AB  - Natural or man-made disasters frequently occur in different countries and disaster types and consequences might differ immensely depending on that country's unique characteristics. While probability of a man-made disaster occurrence will be high for technologically advanced countries as a result of using technology in almost every aspect of daily life, probability of natural disaster occurrence will be dependent on geological, geographical, and climate related factors. Based on their different risk types and levels, each nation should create their own National Emergency Management Model (NEMM) and because of country specific conditions each plan must be unique. Thus, for each country NEMM should be focusing on different factors which are important and should show that country the importance list of factors. As a result, countries may better distribute their limited resources to reach optimum emergency management plan and execution. In this study, our goal is to three fold. Our first goal is to come up with full list of categories and factors which are important for a successful National Emergency Management Model. In order to achieve this goal, we determined our categories and factors based on our analysis of previous disasters and literature review. The second goal is to determine the importance level of each category and defining critical success factors for different countries. For this purpose, we are planning to use experts from different countries. This part of study is still underway. Finally, we analyze how information systems might be utilized for each category and factors to support a better National Emergency Management Model. This is a first step of a multi-step research.
+KW  - Critical success factors
+KW  - Emergency management
+KW  - Information systems
+KW  - Success factors
+N1  - Cited By :3
+N1  - Export Date: 11 August 2016
+M3  - Conference Paper
+DB  - Scopus
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-84905586365&partnerID=40&md5=c8ed35c419c3ca414ef678074bc4e4e3
+ER  - 
+
+TY  - JOUR
+TI  - Tsunami: Scientific frontiers, mitigation, forecasting and policy implications
+T2  - Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences
+VL  - 364
+IS  - 1845
+SP  - 1989
+EP  - 2007
+PY  - 2006
+DO  - 10.1098/rsta.2006.1809
+AU  - Bernard, E.N.
+AU  - Mofjeld, H.O.
+AU  - Titov, V.
+AU  - Synolakis, C.E.
+AU  - González, F.I.
+AU  - Purvis, M.J.
+AU  - Sharpe, J.E.
+AU  - Mayberry, G.C.
+AU  - Robertson, R.E.A.
+AD  - Pacific Marine Environmental Laboratory, NOAA, Seattle, WA 98115-6349, United States
+AD  - Joint Institute for the Study of the Atmosphere and Ocean, University of Washington, Seattle, WA 98195, United States
+AD  - Viterbi School of Civil Engineering, University of Southern California, Los Angeles, CA 9008-2531, United States
+AD  - University of Bristol, United Kingdom
+AD  - Beal High School, Essex, United Kingdom
+AD  - USAID Office of Foreign Disaster Assistance, Washington, DC, United States
+AD  - University of the West Indies, St. Augustine, Trinidad and Tobago
+AB  - Tsunamis are an ever-present threat to lives and property along the coasts of most of the world's oceans. As the Sumatra tsunami of 26 December 2004 reminded the world, we must be more proactive in developing ways to reduce their impact on our global society. This article provides an overview of the state of knowledge of tsunamis, presents some challenges confronting advances in the field and identifies some promising frontiers leading to a global warning system. This overview is then used to develop guidelines for advancing the science of forecasting, hazard mitigation programmes and the development of public policy to realize a global system. Much of the information on mitigation and forecasting draws upon the development and accomplishments of a joint state/federal partnership that was forged to reduce tsunami hazards along US coastlines - the National Tsunami Hazard Mitigation Programme. By integrating hazard assessment, warning guidance and mitigation activities, the programme has created a roadmap and a set of tools to make communities more resilient to local and distant tsunamis. Among the tools are forecasting, educational programmes, early warning systems and design guidance for tsunami-resilient communities. Information on international cooperation is drawn from the Global Earth Observing System of Systems (GEOSS). GEOSS provides an international framework to assure international compatibility and interoperability for rapid exchange of data and information. © 2006 The Royal Society.
+KW  - Tsunameter
+KW  - Tsunami
+KW  - Tsunami forecasting
+KW  - Tsunami warning system
+N1  - Cited By :55
+N1  - Export Date: 11 August 2016
+M3  - Review
+DB  - Scopus
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-33748118098&partnerID=40&md5=daf35c059d8bd9cc44e09a1a7283979b
+ER  - 
+
+TY  - CONF
+TI  - Notifying civilians in time - disaster warning systems based on a multilaterally secure, economic, and mobile infrastructure
+T2  - Association for Information Systems - 11th Americas Conference on Information Systems, AMCIS 2005: A Conference on a Human Scale
+VL  - 2
+SP  - 838
+EP  - 847
+PY  - 2005
+AU  - Scherner, T.
+AU  - Fritsch, L.
+AD  - University of Frankfurt, Germany
+AB  - The spread of mobile communication equipment offers new opportunities for disaster management referring to civilians. At the same time, location based services are regarded as privacy invading, and are regulated in many countries by specific legislation. We analyze the requirements of a LBS-based disaster management scenario that enables the timely notification of civilians. In addition, we propose a solution for building a privacy-friendly, multilaterally secure disaster management infrastructure based on robust mobile phone infrastructures with high reachability of citizens. We will also point out additional features based on mobile networks. Traditionally, disaster management is a government domain. We will propose another option to implement and run disaster management. We analyze in how far an early warning system could be profitable for the insurance sector. Our comments will sketch that it is possible to reach a large number of persons, avoid insurance damage, and save costs in disaster warning systems.
+KW  - Civil protection
+KW  - Disaster management
+KW  - E-government
+KW  - GSM
+KW  - Location based services
+KW  - Mobile phone
+N1  - Export Date: 11 August 2016
+M3  - Conference Paper
+DB  - Scopus
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-84869756084&partnerID=40&md5=d883651fe27ee316ed3f456f1df73e80
+ER  - 
+
